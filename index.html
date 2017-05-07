@@ -6,10 +6,11 @@ title: Stratus Network - Home
 	       new Clipboard('#btn');/* global Clipboard*/
 	       $.getJSON( "https://mcapi.us/server/status?ip=play.stratus.network", function( data ) {
 	           $('#players').append(data.players.now);
-	       }); /* gets JSON return from mcapi for players */
-	       $(document).ready(function() {
-	           $('#bounce').transition('jiggle');
-	       });
+		}).fail(function() { 
+     			document.getElementById('bounce').innerText = 'Player Count \n Unavailable'
+		}).done(function(){
+	 		$('#bounce').transition('jiggle'); 
+		});;
 </script>
 <br>
 <br>
