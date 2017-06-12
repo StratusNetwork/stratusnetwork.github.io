@@ -74,19 +74,21 @@ Registration commands:
 - &#39;/discord register &lt;discord username&gt;&#39; - Link your Minecraft to your Discord account.
 - &#39;/discord show &lt;minecraft name&gt;&#39; - Show what discord account that player is linked to
 
-General team commands
+General team commands:
 
 - &#39;/discord team accept&#39; &lt;team name&gt; - Accept an invite to join a team.
 - &#39;/discord team roster&#39; - Displays the team roster
+- &#39;/discord team confirm&#39; - Will confirm that you want to register in the tourney with that team, once you do, you won't be able to leave the team unless the team leader unregisters the team from the tournament.
+- &#39;/discord team leave&#39; - Leave a team. Disbands the team if the leader leaves.
 
 Team Leader commands:
 
 - &#39;/discord team create &lt;team name&gt;&#39; - Create a team.
 - &#39;/discord team invite &lt;minecraft name&gt;&#39; - Invite another person to your team.
-- &#39;/discord team leave&#39;   - Leave a team. Disbands the team if the leader leaves.
 - &#39;/discord team kick &lt;minecraft name&gt;&#39; - Kick a member from your team.
 - &#39;/db team promote&#39;  - Will promote that player to leader (you will no longer be leader!)
 - &#39;/db team register&#39; - Will register the team for the tournament (when registration is open)
+- &#39;/discord team unregister&#39; - Will Unregister the team For the tournament (when registration is open)
 
 More information and a full list of commands are found in the FAQ:
 
@@ -113,8 +115,8 @@ All teams must have at least 2 players who can speak English fluently present at
 - Teams confirmed by - Tuesday, June 20
 - Group-stage - group A - Saturday, June 24 (starting at 11:00 am EDT)
 - Group-stage - group B - Saturday, June 24 (starting at 3:00 pm EDT)
-- Group-stage - group C - Saturday, June 25 (starting at 11:00 am EDT)
-- Group-stage - group D - Saturday, June 25 (starting at 3:00 pm EDT)
+- Group-stage - group C - Sunday, June 25 (starting at 11:00 am EDT)
+- Group-stage - group D - Sunday, June 25 (starting at 3:00 pm EDT)
 - Round of 16 to Quarterfinals - Saturday, July 1 (starting at 11:00 am EDT)
 - Semifinals and Finals - Sunday, July 2 (starting at 11:00 am EDT)
 

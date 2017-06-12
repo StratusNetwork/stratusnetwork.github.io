@@ -30,6 +30,7 @@ First, to let others know you are looking for a team, post to the &quot;LFT&quot
 In order to leave a team, type /discord team leave.
 
 Note: If the leader leaves the team, the team is disbanded.
+
 **What should I know before I participate in an event?**
 
 All of the details for the current event are posted in #announcement in Discord as well as on [](http://stratus.network). Read the information post and take note of the important dates and Team Information. Also be sure to read the network rules.
