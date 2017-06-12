@@ -1,0 +1,146 @@
+# To add a new staff member add this to their staff group(s);
+#   - id: ExampleUUID
+#     name: Minecraft IGN
+#     role: If the group that the staff member is in has one specified add one, if not ignore this.
+#
+# Use the uuid c3def5c047c44d8ab2bb1af1aa3eaa26 for groups of people as it has the stratus skin.
+
+
+administrators:
+- id: 17feaec5961649d8a50783026050dd8f
+  name: ShinyDialga
+  role: Head of Development
+- id: 57f5535d6b9e4013ad71e2cc63ec8d7c
+  name: ItzaMeLuigi
+  role: Rotation and Map Development 
+- id: 715769c58c4c4489bdf8f9cee2b2ae8a
+  name: amactus
+  role: Marketing and Events
+- id: 1c74c43029a0471fb30bcc2d9031ebcb
+  name: Tazz
+  role: General Development
+developers:
+- id: 94812eb711604db4b349c2eac0792218
+  name: Shawnn
+  role: Website Development
+- id: 208c84af790a41dabf7eeb184f17bdf8
+  name: Elly
+  role: Plugin Development 
+- id: cc2292defcb3412d9319f3177f73b605
+  name: cs_
+  role: Plugin Development
+- id: b0c7d805ee934b59be4f2438a9db418e
+  name: RainoBoy97
+  role: Server-Side Development
+- id: 28889c74f739437287a8b965cd5f9d65
+  name: Javipepe
+  role: Plugin Development
+snrmoderators:
+- id: 50b1121effe14798b382e3390d53bbff
+  name: Eudaldca
+- id: 76db4f749cf445b7a3a8ae96b5979bfd
+  name: stupid3700
+- id: a29d7ed51ca34953a102e874b8e6c83e
+  name: Deoz
+- id: 1696b5e22a7d4dd0a67e45ebdd19359c
+  name: Noel
+moderators:
+- id: a9f11454beac4cc3a1381780802c8794
+  name: Crazy_
+- id: b596759114fc421fa5e2931498e10fb8
+  name: SNs_OMEN
+- id: 5b700f637ff4400689b73fc21f61239c
+  name: LFT
+- id: 408267c4c74943128e288a29113c1329
+  name: 2000thehecf1
+- id: 8af5859a1d6e4fbdae5f4c63ff630fa4
+  name: KingOfSquares
+- id: 453003c1d3a24b0ab4911205e503de90
+  name: majjus_
+- id: b152107269934fe4ae60dbeeb7dc0cfa
+  name: Antnecb
+- id: 46bdeaa989194b8fa22d73ca14967530
+  name: Cera
+- id: 290068c00e784ea6ac3852c3b6eb7058
+  name: Snuskenmaxi
+- id: f4eae547b4d8434898447e444e31b389
+  name: Tomqss
+- id: c4a072b2abe647a396bbc8ce07c90b60
+  name: Pelpelajax
+- id: 00c06fa61c534634931a929efd8a52df
+  name: Nadastorm
+eventstaff:
+- id: 453003c1d3a24b0ab4911205e503de90
+  name: majjus_
+  role: Event Team Captian 
+- id: 94812eb711604db4b349c2eac0792218
+  name: Shawnn
+  role: Senior Event Staff 
+- id: b152107269934fe4ae60dbeeb7dc0cfa
+  name: Antnecb
+  role: Senior Event Staff
+- id: 022321a8578b4438b0358a3ca735639f
+  name: nintendoboy11
+  role: Senior Event Staff
+- id: 755acf7dc9b44f1db7acdb4dfdfa2b26
+  name: Strmr
+  role: Senior Event Staff
+- id: 50b1121effe14798b382e3390d53bbff
+  name: Eudaldca
+  role: Senior Referee
+- id: 76db4f749cf445b7a3a8ae96b5979bfd
+  name: stupid3700
+  role: Senior Referee
+- id: 0441596213e24010b5f16d5ed7e537d4
+  name: Poseidons
+  role: Senior Event Staff
+- id: 93902939ca9c4d9693f15af788d7d7ff
+  name: CanadasEpic
+  role: Senior Event Staff
+- id: e7e75b53a0dc46a1b0f0e9f24c21710e
+  name: Maracas95
+  role: Senior Event Staff
+- id: dff980ed9f69491eb79c30c21350baf2
+  name: DoomyBoy
+  role: Event Producer 
+- id: 037d948e4bbb441f8a59068ab65af822
+  name: Tigo
+  role: Event Producer
+- id: 6bec5c3a49344b199aa8c7c569820f7d
+  name: Claf
+  role: Event Map Coordination
+- id: 621b2aa84e5f4ed8bd360ae2f8952a06
+  name: Strangey
+  role: Event Map Coordination
+- id: c4a072b2abe647a396bbc8ce07c90b60
+  name: Pelpelajax
+  role: Senior Event Staff
+- id: 208c84af790a41dabf7eeb184f17bdf8
+  name: Elly
+  role: Senior Event Staff
+mapdevelopers:
+- id: f690a591348b482ea18d7779d0c0a28c
+  name: mitchiii_
+- id: bf3319534f9243ee8abc7544b8234936
+  name: ViceWatercolour
+- id: 2cef6d05ec9a44b3bedc53359c68ae65
+  name: BGMP00
+- id: 205d1aadc619499b9885b91c372b1c13
+  name: Equus
+- id: 0441596213e24010b5f16d5ed7e537d4
+  name: Poseidons
+- id: dff980ed9f69491eb79c30c21350baf2
+  name: DoomyBoy
+- id: 6bec5c3a49344b199aa8c7c569820f7d
+  name: Claf
+- id: 621b2aa84e5f4ed8bd360ae2f8952a06
+  name: Strangey
+advisors:
+- id: e82603df417d4a95bd1f1720648be0b4
+  name: Pablete1234
+- id: dad8b95ccf6a44df982e8c8dd70201e0
+  name: ElectroidFilms
+- id: bb628049e3684b1cb8aad4557ae9416b
+  name: Anthonny
+- id: 6968cbdec2b7479ca8daf33f109f013b
+  name: Brottweiler

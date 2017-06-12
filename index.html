@@ -2,25 +2,11 @@
 layout: default
 title: Stratus Network - Home
 ---
-<script type="text/javascript">
-	       new Clipboard('#btn');/* global Clipboard*/
-	       $.getJSON( "https://mcapi.us/server/status?ip=play.stratus.network", function( data ) {
-	           $('#players').append(data.players.now);
-		}).fail(function() { 
-     			document.getElementById('bounce').innerText = 'Player Count \n Unavailable'
-		}).done(function(){
-	 		$('#bounce').transition('jiggle'); 
-		});;
-</script>
-<script type="text/javascript">
-	      function copyToClipboard(element) {
-  		var $temp = $("<input>");
-  		$("body").append($temp);
-  		$temp.val($(element).text()).select();
-  		document.execCommand("copy");
-  		$temp.remove();
-		}
-</script>
+<script type="text/javascript" src="/assets/scripts/moment.js"></script>
+<script type="text/javascript" src="/assets/scripts/livestamp.js"></script>
+<script type="text/javascript" src="/assets/scripts/clipboard.js"></script>
+<script type="text/javascript" src="/assets/scripts/index.js"></script>
+
 <br>
 <br>
 <br>
@@ -29,10 +15,11 @@ title: Stratus Network - Home
 		<div class="ui labeled action input" style="padding-top:178.000011px">
 			<div class="ui label">
 				IP:
-			</div><input id="ip" readonly type="text" value="play.stratus.network"> <button onclick="copyToClipboard('#ip')"class="ui icon button" data-clipboard-target="#ip" id="btn"><i class="blue clipboard icon"></i></button>
+			</div><input id="ip" readonly type="text" value="play.stratus.network"> <button onclick="popup('#ip', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#ip" id="btn"><i class="blue clipboard icon"></i></button>
 		</div><br>
 		<div class="ui pointing blue label" id="bounce">
-			<b id="players"></b> players online
+			<b id="players"></b> players online<br>
+			<small>Last updated <b id="last_updated"></b></small>
 		</div>
 	</div>
 </div> 
@@ -50,3 +37,4 @@ title: Stratus Network - Home
 	</section>
 	<hr>
 	<br>
+</div>

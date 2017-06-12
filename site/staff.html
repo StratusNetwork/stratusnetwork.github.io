@@ -1,0 +1,108 @@
+---
+layout: default
+title: Stratus Network - staff
+permalink: staff
+---
+<div class="ui container" style="padding-top:40px;">
+	<br>
+	<h1 class="ui text header left">Staff</h1>
+	<div class="sub header">
+		<h4 class="ui text header left">These fine people help run the network!</h4>
+	</div>
+	<hr>
+	<div class="ui container" style="padding-left:25px">
+		<div class="ui vertical segment" id="Admins">
+			<h2 class="ui medium header" style="font-size:20px;color:#f89406;">Administrators</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.administrators %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}" width="90">
+					<div class="ui center aligned header" style="color:#f89406;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="Devs">
+			<h2 class="ui medium header" style="font-size:20px;color:purple;">Developers</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.developers %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}" width="90">
+					<div class="ui center aligned header" style="color:purple;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="snrmmods">
+			<h2 class="ui medium header" style="font-size:20px;color:#AA0000;">Senior Moderators</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.snrmoderators %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}" width="90">
+					<div class="ui center aligned header" style="color:#AA0000;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">Senior Moderator</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="mods">
+			<h2 class="ui medium header" style="font-size:20px;color:#F20;">Moderators</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.moderators %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}" width="90">
+					<div class="ui center aligned header" style="color:#F20;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">Moderator</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="eventstaff">
+			<h2 class="ui medium header" style="font-size:20px;color:#016666;">Event Staff</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.eventstaff %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}" width="90">
+					<div class="ui center aligned header" style="color:#016666;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="mapdevs">
+			<h2 class="ui medium header" style="font-size:20px;color:#008000;">Map Developers</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.mapdevelopers %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}" width="90">
+					<div class="ui center aligned header" style="color:#008000;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">Map Developer</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="advisors">
+			<h2 class="ui medium header" style="font-size:20px;color:#AA0000;">Advisors</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.advisors %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}" width="90">
+					<div class="ui center aligned header" style="color:#AA0000;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">Advisor</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+<hr>
+<br>
+</div>

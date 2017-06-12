@@ -1,0 +1,50 @@
+img {
+    max-width: 770px;
+    width: inherit;
+}
+u {
+    text-decoration: inherit;
+}
+/* Colors are ported from semantic-ui default theme */
+u.red {
+  color:#B03060;
+}
+u.orange {
+  color:#FE9A76;
+}
+u.yellow {
+  color:#FFD700;
+}
+u.olive {
+  color:#32CD32;
+}
+u.green {
+  color:#016936;
+}
+u.teal {
+  color:#008080;
+}
+u.blue {
+  color:#0E6EB8;
+}
+u.violet {
+  color:#EE82EE;
+}
+u.purple {
+  color:#B413EC;
+}
+u.pink {
+  color:#FF1493;
+}
+u.brown {
+  color:#A52A2A;
+}
+u.grey {
+  color:#A52A2A;
+}
+u.black {
+  color:#000000;
+}
+.ul {
+    text-decoration: underline;
+}

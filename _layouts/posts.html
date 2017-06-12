@@ -1,0 +1,21 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+<br>
+<link href="assets\css\posts.css" rel="stylesheet" type="text/css">
+<div class="ui container" style="padding-top:40px">
+    <br>
+    <div class="ui stacking grid center aligned">
+		<div class="ui centered segment" style="max-width:800px;width:inherit">
+		    <div class="ui header large">{{page.title}}</div>
+		    <div class="ui row"><div class="ui small header">By <img class="ui avatar image" style="border-radius:.3125em;width:16px;height:16px;"src="https://crafatar.com/avatars/{{author.id}}?size=16"></img><b style="color:{{author.color}}">{{page.author}}</b><div>{{page.date | date: "%b %d %Y"}}</div></div></div>
+		    <div class="ui section divider"></div>
+		    {{content}}
+		    
+		</div>
+	</div>
+	<br>
+	<hr>
+	<br>
+</div>

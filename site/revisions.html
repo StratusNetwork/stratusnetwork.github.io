@@ -1,0 +1,78 @@
+---
+layout: default
+title: Stratus Network - Revisions
+permalink: revisions
+---
+<script type="text/javascript" src="/assets/scripts/moment.js"></script>
+<script type="text/javascript" src="/assets/scripts/livestamp.js"></script>
+<script src="assets\scripts\git.js" type="text/javascript"></script>
+<script type="text/javascript" src="/assets/scripts/DataTables.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.semanticui.min.css" type="text/css" />
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.tabular.menu .item').tab({history:false});
+});
+
+</script>
+
+<div class="ui container aligned" style="padding-top:40px;">
+	<br>
+	<h1 class="ui text header left">Revisions</h1>
+    <hr>
+    <br>
+<div class="ui top attached tabular menu" onclick="$('.tabular .menu .item').tab();">
+    <a class="active item" data-tab="projectares">Plugins</a>
+    <a class="item" data-tab="web">Web</a>
+    <a class="item" data-tab="rotations">Rotations</a>
+  </div>
+<div class="ui bottom attached active tab segment" data-tab="projectares">
+<table id="pa_table" class="ui celled table" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>SHA</th>
+            <th>Author</th>
+            <th>Description</th>
+            <th>When</th>
+        </tr>
+</thead>
+    <tbody id="pa_body">
+    </tbody>
+</table>
+</div>
+<div class="ui bottom attached tab segment" data-tab="web">
+<table id="web_table" class="ui celled table" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>SHA</th>
+            <th>Author</th>
+            <th>Description</th>
+            <th>When</th>
+        </tr>
+</thead>
+    <tbody id="web_body">
+    </tbody>
+</table>
+</div>
+<div class="ui bottom attached tab segment" data-tab="rotations">
+ <table id="rot_table" class="ui celled table" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>SHA</th>
+            <th>Author</th>
+            <th>Description</th>
+            <th>When</th>
+        </tr>
+</thead>
+    <tbody id="rot_body">
+    </tbody>
+    </tbody>
+</table>
+  </div>
+ <div class="ui bottom attached tab segment" data-tab="maps">
+     w
+  </div>
+<hr>
+<br>

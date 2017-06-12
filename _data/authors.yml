@@ -1,0 +1,51 @@
+# To add a new author use the format below
+# Display Name of Author:
+#   id: uuid of skin
+#   color: rgb() format
+# Use the uuid c3def5c047c44d8ab2bb1af1aa3eaa26 for groups of people as it has the stratus skin.
+
+
+Shiny:
+  id: 17feaec5961649d8a50783026050dd8f
+  color: rgb(248,148,6)
+amactus:
+  id: 715769c58c4c4489bdf8f9cee2b2ae8a
+  color: rgb(248,148,6)
+Luigi:
+  id: 57f5535d6b9e4013ad71e2cc63ec8d7c
+  color: rgb(248,148,6)
+Tazz:
+  id: 1c74c43029a0471fb30bcc2d9031ebcb
+  color: rgb(248,148,6)
+Shawnn:
+  id: 94812eb711604db4b349c2eac0792218
+  color: purple
+Elly:
+  id: 208c84af790a41dabf7eeb184f17bdf8
+  color: purple
+cs_:
+  id: cc2292defcb3412d9319f3177f73b605
+  color: purple
+Raino:
+  id: b0c7d805ee934b59be4f2438a9db418e
+  color: purple
+Javipepe:
+  id: 28889c74f739437287a8b965cd5f9d65
+  color: purple
+majjus_:
+  id: 453003c1d3a24b0ab4911205e503de90
+  color: rgb(1,102,102)
+The Senior Mods:
+  id: c3def5c047c44d8ab2bb1af1aa3eaa26
+  color: rgb(170,0,0)
+The Administrators:
+  id: c3def5c047c44d8ab2bb1af1aa3eaa26
+  color: rgb(248,148,6)
+The Map Devs:
+  id: c3def5c047c44d8ab2bb1af1aa3eaa26
+  color: rgb(0,128,0)
+The Event Staff:
+  id: c3def5c047c44d8ab2bb1af1aa3eaa26
+  color: rgb(1,102,102)
+
+
