@@ -108,7 +108,7 @@ All teams must have at least 2 players who can speak English fluently present at
 
 > ## Important dates:
 
-- Registration opens - Monday, June 12 at 12:00 am EDT
+- Registration opens - Monday, June 12 at 8:00 pm EDT
 - Registration closes - Monday, June 19 at 11:59 pm EDT
 - Teams confirmed by - Tuesday, June 20
 - Group-stage - group A - Saturday, June 24 (starting at 11:00 am EDT)

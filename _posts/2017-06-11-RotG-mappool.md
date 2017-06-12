@@ -17,7 +17,7 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
 
 **Bolded maps are confirmed for the map pool.**
 
-- Destroy
+- ### Destroy
   - **Highlands**
     - ![](https://i.imgur.com/cPzmUJ7.png)
   - **Spaceship Battles**
@@ -30,7 +30,7 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
     - ![](https://i.imgur.com/yrZcwIT.png)
   - Fortress Battles TE
     - ![](https://i.imgur.com/adz3txv.png)
-- Capture
+- ### Capture
   - **Gobi**
     - ![](https://i.imgur.com/qxEfqjd.png)
   - **NextGen**
@@ -43,7 +43,7 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
     - ![](https://i.imgur.com/nh3SN4B.png)
   - Race for Victory TE
     - ![](https://i.imgur.com/tvpX4Kh.png)
-- Conquest
+- ### Conquest
   - **Limbo II (KotH)**
     - ![](https://i.imgur.com/OGdguoQ.png)
   - **Desert Sanctuary (CTF)**
