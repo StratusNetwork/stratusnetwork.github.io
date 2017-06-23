@@ -10,16 +10,5 @@ $('#last_updated').livestamp(new Date(data.cache.insertion_time));
 ;
 /* gets JSON return from mcapi for players */
 
-function popup(id, position, title) {
-    $(id).popup({
-        title   : title,
-        position: position,
-        hoverable: false
-    })
-    $(id).popup('show');
-    setTimeout(function(){
-        $(id).popup('destroy');
-    }, 750);
-    
-}
+
 new Clipboard('#btn');/* global Clipboard*/

@@ -35,7 +35,7 @@ When signing up, you must be prepared to play on the following dates:
 
 > ## Team Information
 
-We will be accepting **up to 16 teams** into this tournament (we might make accommodation for more if there&#39;s demand though). All teams may not have less than 8 players or **more than 12** players registered for the event.
+We will be accepting **up to 16 teams** into this tournament (we might make accommodation for more if there&#39;s demand though). All teams may not have less than 8 players or **more than 14** players registered for the event.
 
 Team will need at least 6 active players to play per match with a maximum of 8.
 
@@ -111,8 +111,8 @@ All teams must have at least 2 players who can speak English fluently present at
 > ## Important dates:
 
 - Registration opens - Monday, June 12 at 8:00 pm EDT
-- Registration closes - Monday, June 19 at 11:59 pm EDT
-- Teams confirmed by - Tuesday, June 20
+- Registration closes - Monday, June 11 at 11:59 pm EDT
+- Teams confirmed by - Tuesday, June 22
 - Group-stage - group A - Saturday, June 24 (starting at 11:00 am EDT)
 - Group-stage - group B - Saturday, June 24 (starting at 3:00 pm EDT)
 - Group-stage - group C - Sunday, June 25 (starting at 11:00 am EDT)

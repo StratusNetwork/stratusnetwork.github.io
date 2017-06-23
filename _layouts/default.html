@@ -8,7 +8,28 @@
 		<script src="assets\scripts\jqurey.js"></script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css" rel="stylesheet" type="text/css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.js" type="text/javascript"></script>
+	<script type="text/javascript" src="/assets/scripts/clipboard.js"></script>
 	<link href="assets\css\main.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" >
+	function popup(id, position, title) {
+    $(id).popup({
+        title: title,
+        position: position,
+        hoverable: false,
+        lastResort: 'top center' 
+    })
+    $(id).popup('show');
+    setTimeout(function(){
+        $(id).popup('destroy');
+    }, 750);
+    
+    }
+    window.onload = function() {
+	   new Clipboard('#modal', {
+    	  container: document.getElementById('.modal')
+		});
+    }
+	</script>
 </head>
 <body>
 	<div class="ui top fixed menu" style="height: 45.8px;">
@@ -62,7 +83,7 @@
   	<p class="ui text">If you would like to report a play of commiting a punishment please send an email to the email address below.  In this email please make sure to include your minecraft in-game name, the minecraft in-game name of the player you are reporting, the rule the player broke, and evidence of the player breaking said rule. Thank you for your paitence and we will deal with valid reports as swiftly as possible.</p>
   		<div class="item"><div class="ui labeled action large input">
   			<div class="ui label">Reports</div>
-  		<input id="appeals" readonly type="text" style="width:225px;" value="networkstratus@gmail.com "> <button onclick="popup('#appeals', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#appeals" id="btn">Copy</button>
+  		<input id="reports" readonly type="text" style="width:225px;" value="networkstratus@gmail.com "> <button onclick="popup('#reports', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#reports" id="modal">Copy</button>
 		</div>
 		</div>
   </div>
@@ -74,7 +95,7 @@
   <p class="ui text">If you would like to appeal a punishment please send an email to the email address below.  In this email please make sure to include your minecraft in-game name, the reason you were punished, any counter evidence you may have, and why you think you should be pardoned of the punishment.  Thank you for your paitence and we will deal with valid appeals as swiftly as possible.</p>
   		<div class="ui item"><div class="ui labeled action large input">
   			<div class="ui label">Appeals</div>
-  		<input id="appeals" readonly type="text" style="width:225px;" value="stratusappeals@gmail.com "> <button onclick="popup('#appeals', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#appeals" id="btn">Copy</button>
+  		<input id="appeals" readonly type="text" style="width:225px;" value="stratusappeals@gmail.com "> <button onclick="popup('#appeals', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#appeals" id="modal">Copy</button>
 		</div>
 		</div>
   </div>

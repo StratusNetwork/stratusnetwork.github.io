@@ -1,5 +1,5 @@
 ---
-title:  "Map Pool for Return of the Gamemodes"
+title:  "[FINAL] Map Pool for Return of the Gamemodes"
 date:   2017-06-11
 author: The Event Staff
 permalink: rotg-mappool
@@ -15,12 +15,11 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
 
 > ## Maps
 
-**Bolded maps are confirmed for the map pool.**
 
 - ### Destroy
-  - **Highlands**
+  - Highlands
     - ![](https://i.imgur.com/cPzmUJ7.png)
-  - **Spaceship Battles**
+  - Spaceship Battles
     - ![](https://i.imgur.com/1lphamn.png)     
   - Retaliation II
     - ![](https://i.imgur.com/XAAj5iT.png)
@@ -28,37 +27,35 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
     - ![](https://i.imgur.com/jaNpqtF.png)
   - Murta
     - ![](https://i.imgur.com/yrZcwIT.png)
-  - Fortress Battles TE
-    - ![](https://i.imgur.com/adz3txv.png)
+
 - ### Capture
-  - **Gobi**
+  - **Gobi
     - ![](https://i.imgur.com/qxEfqjd.png)
-  - **NextGen**
+  - NextGen
     - ![](https://i.imgur.com/M81QSby.png)
   - Wallop Too
     - ![](https://i.imgur.com/9swVtvh.png)
   - Bamboo Valley V
     - ![](https://i.imgur.com/bWx58sa.png)
-  - Steppe
-    - ![](https://i.imgur.com/nh3SN4B.png)
-  - Race for Victory TE
-    - ![](https://i.imgur.com/tvpX4Kh.png)
+  - Clearcut
+    - No Pic :c
+
 - ### Conquest
-  - **Limbo II (KotH)**
+  - Limbo II (KotH)
     - ![](https://i.imgur.com/OGdguoQ.png)
-  - **Desert Sanctuary (CTF)**
+  - Desert Sanctuary (CTF)
     - ![](https://i.imgur.com/wll2d2X.png)
-  - **Smoke (5CP)**
+  - Smoke (5CP)
     - ![](https://i.imgur.com/wghgrbX.png)
-  - **Ascendance 02 (5CP)**
+  - Ascendance 02 (5CP)
     - ![](https://i.imgur.com/78W71qe.png)
   - Storm (KotH)
     - ![](https://i.imgur.com/P8qurE4.png)
-  - Harb (TDM)
-    - ![](https://i.imgur.com/5IB0y81.png)
+  - Factory (TDM)
+    -  No Pic :(
   - Siege (5CP)
     - ![](https://i.imgur.com/BEQaIto.png)
   - Bliss (TDM)
     - ![](https://i.imgur.com/qiGA5mo.png)
-
-**Bolded maps are confirmed for the map pool.**
+  - Artext TE (CTF/KoTH)
+    - No Pic :C 
