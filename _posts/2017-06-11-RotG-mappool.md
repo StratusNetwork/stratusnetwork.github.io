@@ -38,7 +38,7 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
   - Bamboo Valley V
     - ![](https://i.imgur.com/bWx58sa.png)
   - Clearcut
-    - No Pic :c
+    - ![](https://i.imgur.com/97KHiBc.png)
 
 - ### Conquest
   - Limbo II (KotH)
@@ -51,11 +51,11 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
     - ![](https://i.imgur.com/78W71qe.png)
   - Storm (KotH)
     - ![](https://i.imgur.com/P8qurE4.png)
-  - Factory (TDM)
-    -  No Pic :(
+  - Factory (KotH)
+    - ![](https://i.imgur.com/MDNudBx.png)
   - Siege (5CP)
     - ![](https://i.imgur.com/BEQaIto.png)
   - Bliss (TDM)
     - ![](https://i.imgur.com/qiGA5mo.png)
   - Artext TE (CTF/KoTH)
-    - No Pic :C 
+    - ![](https://i.imgur.com/CPi9aV4.png)
