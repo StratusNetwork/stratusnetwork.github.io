@@ -32,7 +32,7 @@ _All times are in EDT (UTC-4)_
 - SpanishGibraltar
 - OldParr
 
-<u class="ul">Group D - Saturday June 25th 3:00 PM to 6:00 PM</u>
+<u class="ul">Group D - Sunday June 25th 3:00 PM to 6:00 PM</u>
 - DARN
 - Drops
 - PureBlox

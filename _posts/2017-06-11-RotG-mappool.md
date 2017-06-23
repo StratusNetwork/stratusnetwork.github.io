@@ -29,7 +29,7 @@ CTW and DTC/M matches will last a maximum of 45 minutes. Conquest matches will h
     - ![](https://i.imgur.com/yrZcwIT.png)
 
 - ### Capture
-  - **Gobi
+  - Gobi
     - ![](https://i.imgur.com/qxEfqjd.png)
   - NextGen
     - ![](https://i.imgur.com/M81QSby.png)
