@@ -117,20 +117,28 @@ eventstaff:
 mapdevelopers:
 - id: f690a591348b482ea18d7779d0c0a28c
   name: mitchiii_
+  role: Team Coordinator
 - id: bf3319534f9243ee8abc7544b8234936
   name: ViceWatercolour
+  role: Team Coordinator
 - id: 2cef6d05ec9a44b3bedc53359c68ae65
   name: BGMP00
+  role: Community
 - id: 205d1aadc619499b9885b91c372b1c13
   name: Equus
+  role: Community
 - id: 0441596213e24010b5f16d5ed7e537d4
   name: Poseidons
+  role: Community
 - id: dff980ed9f69491eb79c30c21350baf2
   name: DoomyBoy
+  role: Events
 - id: 6bec5c3a49344b199aa8c7c569820f7d
   name: Claf
+  role: Events
 - id: 621b2aa84e5f4ed8bd360ae2f8952a06
   name: Strangey
+  role: Events
 advisors:
 - id: e82603df417d4a95bd1f1720648be0b4
   name: Pablete1234
