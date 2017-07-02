@@ -12,7 +12,7 @@ administrators:
   role: Head of Development
 - id: 57f5535d6b9e4013ad71e2cc63ec8d7c
   name: ItzaMeLuigi
-  role: Map Rotation and Development 
+  role: Map Development & General Administration
 - id: 715769c58c4c4489bdf8f9cee2b2ae8a
   name: amactus
   role: Marketing and Events
@@ -23,9 +23,6 @@ developers:
 - id: 94812eb711604db4b349c2eac0792218
   name: Shawnn
   role: Website Development
-- id: 208c84af790a41dabf7eeb184f17bdf8
-  name: Elly
-  role: Plugin Development 
 - id: cc2292defcb3412d9319f3177f73b605
   name: cs_
   role: Plugin Development
@@ -68,7 +65,7 @@ moderators:
 eventstaff:
 - id: 453003c1d3a24b0ab4911205e503de90
   name: majjus_
-  role: Event Team Captian 
+  role: Event Team Captain 
 - id: 94812eb711604db4b349c2eac0792218
   name: Shawnn
   role: Senior Event Staff 
@@ -77,9 +74,6 @@ eventstaff:
   role: Senior Event Staff
 - id: 022321a8578b4438b0358a3ca735639f
   name: nintendoboy11
-  role: Senior Event Staff
-- id: 755acf7dc9b44f1db7acdb4dfdfa2b26
-  name: Strmr
   role: Senior Event Staff
 - id: 50b1121effe14798b382e3390d53bbff
   name: Eudaldca
@@ -98,7 +92,7 @@ eventstaff:
   role: Senior Event Staff
 - id: dff980ed9f69491eb79c30c21350baf2
   name: DoomyBoy
-  role: Event Producer 
+  role: Event Map Coordination
 - id: 037d948e4bbb441f8a59068ab65af822
   name: Tigo
   role: Event Producer
@@ -111,26 +105,34 @@ eventstaff:
 - id: c4a072b2abe647a396bbc8ce07c90b60
   name: Pelpelajax
   role: Senior Event Staff
-- id: 208c84af790a41dabf7eeb184f17bdf8
-  name: Elly
-  role: Senior Event Staff
+- id: 2958ea4c3501404e88cc12e8632f68cc
+  name: Nixaniaxi
+  role: Event Map Coordination
 mapdevelopers:
 - id: f690a591348b482ea18d7779d0c0a28c
   name: mitchiii_
+  role: Team Coordinator
 - id: bf3319534f9243ee8abc7544b8234936
   name: ViceWatercolour
+  role: Team Coordinator
 - id: 2cef6d05ec9a44b3bedc53359c68ae65
   name: BGMP00
+  role: Community Map Developer
 - id: 205d1aadc619499b9885b91c372b1c13
   name: Equus
+  role: Community Map Developer
 - id: 0441596213e24010b5f16d5ed7e537d4
   name: Poseidons
+  role: Community Map Developer
 - id: dff980ed9f69491eb79c30c21350baf2
   name: DoomyBoy
+  role: Event Map Developer
 - id: 6bec5c3a49344b199aa8c7c569820f7d
   name: Claf
+  role: Event Map Developer
 - id: 621b2aa84e5f4ed8bd360ae2f8952a06
   name: Strangey
+  role: Events Map Developer
 advisors:
 - id: e82603df417d4a95bd1f1720648be0b4
   name: Pablete1234
@@ -140,3 +142,7 @@ advisors:
   name: Anthonny
 - id: 6968cbdec2b7479ca8daf33f109f013b
   name: Brottweiler
+- id: 67ceac9432d849e084c70d5bbfd859ea
+  name: Parkway
+- id: 1987fc00a5b243b5b94be3c0d25776e9
+  name: Brett
