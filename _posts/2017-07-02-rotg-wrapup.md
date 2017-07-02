@@ -5,6 +5,8 @@ author: majjus_
 permalink: rotg-wrapup
 layout: posts
 ---
+![](https://imgur.com/wF2Fmkh.png)
+
 Congratulations to DARN on winning our first Tournament!
 
 I want to thank the referees, live-streamers, planners and people working on the plugins and servers, who worked tirelessly on making the tournament as great as possible.
