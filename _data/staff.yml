@@ -62,13 +62,26 @@ moderators:
   name: Pelpelajax
 - id: 00c06fa61c534634931a929efd8a52df
   name: Nadastorm
+juniormoderators:
+- id: c88f74cc51e743dab89354f8ec630701
+  name: Epicness
+- id: bf3319534f9243ee8abc7544b8234936
+  name: ViceWatercolour
+- id: 62c41f0e133d4192ad33f0896f47d23a
+  name: nixter1029
+- id: 022321a8578b4438b0358a3ca735639f
+  name: nintendoboy11
+- id: 94812eb711604db4b349c2eac0792218
+  name: Shawnn
+- id: 76b4cc36f8994c428ad5f9ba48ffd4c4
+  name: slayersource
 eventstaff:
 - id: 453003c1d3a24b0ab4911205e503de90
   name: majjus_
-  role: Event Team Captain 
+  role: Event Team Captain
 - id: 94812eb711604db4b349c2eac0792218
   name: Shawnn
-  role: Senior Event Staff 
+  role: Senior Event Staff
 - id: b152107269934fe4ae60dbeeb7dc0cfa
   name: Antnecb
   role: Senior Event Staff
