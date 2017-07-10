@@ -37,6 +37,20 @@ permalink: staff
 				{% endfor %}
 			</div>
 		</div>
+        <div class="ui vertical segment" id="juniordevs">
+			<h2 class="ui medium header" style="font-size:20px;color:#be5bff;">Junior Developers</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.juniordevelopers %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#be5bff;margin:13px 0 6px 0;">{{player.name}}</div>
+                    <div class="center aligned sub header">Junior Developer</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
 		<div class="ui vertical segment" id="snrmmods">
 			<h2 class="ui medium header" style="font-size:20px;color:#AA0000;">Senior Moderators</h2>
 		</div>
