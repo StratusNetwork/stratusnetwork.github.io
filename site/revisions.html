@@ -8,71 +8,89 @@ permalink: revisions
 <script src="assets\scripts\git.js" type="text/javascript"></script>
 <script type="text/javascript" src="/assets/scripts/DataTables.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/dataTables.semanticui.min.css" type="text/css" />
-<script type="text/javascript">
-$(document).ready(function(){
-    $('.tabular.menu .item').tab({history:false});
-});
+<script>
+$('#pgm a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#web a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+$('#rot a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 </script>
 
-<div class="ui container aligned" style="padding-top:55px;">
-    <h1 class="ui text header left">Revisions</h1>
-    <hr>
+<section>
+    <div class="row">
+        <h2>Revisions</h2>
+        <hr>
+        <ul class="nav nav-tabs role="tablist"">
+            <li role="presentation" class="active"><a href="#pgm" aria-controls="pgm" role="tab" data-toggle="tab">PGM</a></li>
+            <li role="presentation"><a href="#web" aria-controls="web" role="tab" data-toggle="tab">Website</a></li>
+            <li role="presentation"><a href="#rot" aria-controls="rot" role="tab" data-toggle="tab">Rotations</a></li>
+        </ul>
+    </div>
     <br>
-    <div class="ui top attached tabular menu" onclick="$('.tabular .menu .item').tab();">
-        <a class="active item" data-tab="projectares">Plugins</a>
-        <a class="item" data-tab="web">Web</a>
-        <a class="item" data-tab="rotations">Rotations</a>
+    <div class="row">
+        <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="pgm">
+                <div class="active" data-tab="pgm">
+                    <table id="pa_table" class="table" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>SHA</th>
+                                <th>Author</th>
+                                <th>Description</th>
+                                <th>When</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pa_body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="web">
+                <div role="tabpanel" class="tab-pane" id="web">
+                    <div data-tab="web">
+                        <table id="web_table" class="table" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>SHA</th>
+                                    <th>Author</th>
+                                    <th>Description</th>
+                                    <th>When</th>
+                                </tr>
+                            </thead>
+                            <tbody id="web_body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="rot">
+                <div role="tabpanel" class="tab-pane" id="rot">
+                    <div data-tab="rot">
+                        <table id="rot_table" class="table" cellspacing="0" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>SHA</th>
+                                    <th>Author</th>
+                                    <th>Description</th>
+                                    <th>When</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rot_body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="ui bottom attached active tab segment" data-tab="projectares">
-        <table id="pa_table" class="ui celled table" cellspacing="0" width="100%">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>SHA</th>
-                    <th>Author</th>
-                    <th>Description</th>
-                    <th>When</th>
-                </tr>
-            </thead>
-            <tbody id="pa_body">
-            </tbody>
-        </table>
-    </div>
-    <div class="ui bottom attached tab segment" data-tab="web">
-        <table id="web_table" class="ui celled table" cellspacing="0" width="100%">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>SHA</th>
-                    <th>Author</th>
-                    <th>Description</th>
-                    <th>When</th>
-                </tr>
-            </thead>
-            <tbody id="web_body">
-            </tbody>
-        </table>
-    </div>
-    <div class="ui bottom attached tab segment" data-tab="rotations">
-        <table id="rot_table" class="ui celled table" cellspacing="0" width="100%">
-            <thead>
-                <tr>
-                    <th>#</th>
-                    <th>SHA</th>
-                    <th>Author</th>
-                    <th>Description</th>
-                    <th>When</th>
-                </tr>
-            </thead>
-            <tbody id="rot_body">
-            </tbody>
-        </table>
-    </div>
-    <!--
-    <div class="ui bottom attached tab segment" data-tab="maps">
-        w
-    </div>
-    -->
-    <hr>
-    <br>
-</div>
+</section>

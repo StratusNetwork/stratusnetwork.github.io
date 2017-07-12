@@ -28,8 +28,9 @@
 	</script>
 </head>
 <body>
-	    <nav class="navbar navbar-default navbar-static-top">
-				<div class="container">
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+
 	        <div class="navbar-header">
 	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
 	                <span class="sr-only">Toggle navigation</span>
@@ -42,6 +43,7 @@
 								Stratus Network
 							</a>
 						</div>
+			    </div>
 	        <div class="collapse navbar-collapse" id="mobile-navbar">
 	            <ul class="nav navbar-nav">
 	                <li><a href="/announcements">Announcements</a></li>
@@ -77,18 +79,18 @@
                             <li><b>Organization</b></li>
                             <br>
                             <li><a class="btn btn-default" role="button" target="_blank" href="https://github.com/StratusNetwork/Map-Rotations/issues"><i class="fa fa-cube"></i> Map Submissions</a></li>
-                            <li><a class="btn btn-default" role="button" href="/rules"><i class="fa fa-balance-scale"></i> Rules</a></li>
+                            <li><a class="btn btn-default" role="button" href="/rules"><i class="fa fa-balance-scale"></i> Network Rules</a></li>
                             <li><a class="btn btn-default" role="button" href="/staff"><i class="fa fa-id-badge"></i> Staff Listing</a></li>
-                            <li><a class="btn btn-default" role="button" href="/conduct"><i class="fa fa-book"></i> Staff Code of Conduct</a></li>
+                            <li><a class="btn btn-default" role="button" href="/conduct"><i class="fa fa-book"></i> Staff CoC</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
                         <ul class="nav nav-pills nav-stacked">
                             <li><b>Moderation</b></li>
                             <br>
-                            <li><a class="btn btn-default" role="button" data-toggle="modal" data-target="#modal-report"><i class="fa fa-legal"></i> Report a Player</a></li>
-                            <li><a class="btn btn-default" role="button" data-toggle="modal" data-target="#modal-appeal"><i class="fa fa-comments-o"></i> Appeal a Punishment</a></li>
-                            <li><a class="btn btn-default" role="button" href="/apply"><i class="fa fa-briefcase"></i> Apply for a Role</a></li>
+                            <li><a class="btn btn-default" role="button" data-toggle="modal" data-target="#modal-report"><i class="fa fa-legal"></i> Player Reports</a></li>
+                            <li><a class="btn btn-default" role="button" data-toggle="modal" data-target="#modal-appeal"><i class="fa fa-comments-o"></i> Punishment Appeals</a></li>
+                            <li><a class="btn btn-default" role="button" href="/apply"><i class="fa fa-briefcase"></i> Role Applications</a></li>
                         </ul>
                     </div>
                     <div class="col-md-3">
@@ -138,6 +140,31 @@
         </div>
         <br>
     </section>
+	</div>
+<div class="ui modal reports">
+  <i class="close icon"></i>	
+  <div class="ui header">Reports</div>
+  <div class="ui content" style="text-align:center;">
+  	<p class="ui text">If you would like to report a player for breaking a rule, please send an email to the address below, including your Minecraft in-game name, the Minecraft in-game name of the player you are reporting, the rule the player broke and evidence of the player breaking said rule. We will deal with your report as quickly as possible. Thank you for your patience.</p>
+  		<div class="item"><div class="ui labeled action large input">
+  			<div class="ui label">Reports</div>
+  		<input id="reports" readonly type="text" style="width:225px;" value="networkstratus@gmail.com "> <button onclick="popup('#reports', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#reports" id="modal">Copy</button>
+		</div>
+		</div>
+  </div>
+  </div>
+  <div class="ui modal appeals">
+  <i class="close icon"></i>	
+  <div class="ui header">Appeals</div>
+  <div class="ui content" style="text-align:center;">
+  <p class="ui text">If you would like to appeal a punishment please send an email to the address below, including your Minecraft in-game name, the reason for which you were punished, why you believe the punishment is incorrect or too severe and any counter-evidence you have.  We will deal with your appeal as quickly as possible. Thank you for your patience.</p>
+  		<div class="ui item"><div class="ui labeled action large input">
+  			<div class="ui label">Appeals</div>
+  		<input id="appeals" readonly type="text" style="width:225px;" value="stratusappeals@gmail.com "> <button onclick="popup('#appeals', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#appeals" id="modal">Copy</button>
+		</div>
+		</div>
+  </div>
+  </div>
 </body>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
