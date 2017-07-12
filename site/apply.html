@@ -3,91 +3,104 @@ layout: default
 title: Stratus Network - Apply
 permalink: apply
 ---
-
 <div class="ui container" style="padding-top:55px;">
     <h1 class="ui text header left">Apply</h1>
     <div class="sub header">
-		<h4 class="ui text header left">A central listing of all the positions currently open for application on Stratus.</h4>
-	</div>
-	<hr>
+        <h4 class="ui text header left">A central listing of all the positions currently open for application on Stratus.</h4>
+    </div>
+    <hr>
+    <br>
+    <div class="ui two stackable cards">
+        <div class="card" id="devs">
+            <div class="content">
+                <div class="ui grid">
+                    <div class="twelve wide column">
+                        <h3>Developer</h3>
+                        <hr>
+                        <p>Help develop Stratus's plugins and website to make Stratus the best server ever!</p>
+                    </div>
+                    <div class="four wide column">
+                        <div class="ui centered middle aligned grid" style="padding-top: 50%">
+                            <a onclick="$('.ui.modal.devs').modal('show');" class="ui blue large button floated">Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card" id="cc">
+            <div class="content">
+                <div class="ui grid">
+                    <div class="twelve wide column">
+                        <h3>Content Creator & Internet Famous</h3>
+                        <hr>
+                        <p>Create content on Stratus and meet the <a href="/if-cc">requirements</a>? Apply for the rank and achieve special perks!</p>
+                    </div>
+                    <div class="four wide column">
+                        <div class="ui centered middle aligned grid" style="padding-top: 50%">
+                            <a onclick="$('.ui.modal.if-cc').modal({autofocus: false,}).modal('show');" class="ui blue large button floated">Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        <div class="card" id="mods">
+            <div class="content">
+                <div class="ui grid">
+                    <div class="twelve wide column">
+                        <h3>Moderator</h3>
+                        <hr>
+                        <p>Help moderate Stratus and maintain the status quo in game!</p>
+                    </div>
+                    <div class="four wide column">
+                        <div class="ui centered middle aligned grid" style="padding-top: 50%">
+                            <a onclick="$('.ui.modal.mods').modal('show');" class="ui blue large button floated">Apply</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+    <hr>
+    <br>
+</div>
+<br>
 <!--
-<div id="mods" class="ui compact horizontal segments" style="max-width:550px;width:auto;">
-			<div class="ui padded segment" style="max-width:450px;width:auto">
-					<div class="seven wide row">
-							<div class="ui header">Moderator</div>
-					</div>
-				<div class="ui divider"></div>
-				<div class="subheader">Help moderate Stratus and maintain the status quo in game!</div>
-			</div>
-			<div class="ui compact segment" style="max-width:100px;width:auto">
-				<div class="ui centered middle aligned grid" style="padding-top:50%">
-					<a class="ui blue large button right floated" onclick="$('.ui.modal.mods').modal('show');">Apply</a>
-				</div>
-			</div>
-		</div>
+<div class="ui modal mods">
+    <i class="close icon"></i>
+    <div class="ui header">Moderator Applications</div>
+    <div class="ui content" style="text-align:center;">
+        <p class="ui text">If you would like to apply for Moderator on Stratus then please send an email to the email address below. Please treat this email like you are applying for a job, simply listing your discord will not suffice.</p>
+        <div class="item">
+            <div class="ui labeled action large input">
+                <div class="ui label">Mods</div>
+                <input id="modapps" readonly type="text" style="width:225px;" value="stratus.staff@gmail.com ">
+                <button onclick="popup('#modapps', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#modapps" id="modal">Copy</button>
+            </div>
+        </div>
+    </div>
+</div>
 -->
-<div id="devs" class="ui compact horizontal segments" style="max-width:550px;width:auto;">
-			<div class="ui padded segment" style="max-width:450px;width:auto">
-					<div class="seven wide row">
-							<div class="ui header">Developers</div>
-					</div>
-				<div class="ui divider"></div>
-				<div class="subheader">Help develop Stratus's plugins and website to make the Stratus the best server ever!</div>
-			</div>
-			<div class="ui compact segment" style="max-width:100px;width:auto">
-				<div class="ui centered middle aligned grid" style="padding-top:50%">
-					<a class="ui blue large button right floated" onclick="$('.ui.modal.devs').modal('show');">Apply</a>
-				</div>
-			</div>
-		</div>
-<div id="CC" class="ui compact horizontal segments" style="max-width:550px;width:auto;">
-			<div class="ui padded segment" style="max-width:450px;width:auto">
-					<div class="seven wide row">
-							<div class="ui header">Content Creator and Internet Famous</div>
-					</div>
-				<div class="ui divider"></div>
-				<div class="subheader">Make videos on Stratus and achieve <a href="/if-cc">these</a> requirements? Then apply for content creator or IF and gain special perks!</div>
-			</div>
-			<div class="ui compact segment" style="max-width:100px;width:auto">
-				<div class="ui centered middle aligned grid" style="padding-top:50%">
-					<a class="ui blue large button right floated" onclick="$('.ui.modal.if-cc').modal({autofocus: false,}).modal('show');">Apply</a>
-				</div>
-			</div>
-		</div>
-		<hr>
-		<br>
-	</div>
-	<div class="ui modal mods">
-  <i class="close icon"></i>	
-  <div class="ui header">Moderator Applications</div>
-  <div class="ui content" style="text-align:center;">
-  	<p class="ui text">If you would like to apply for Moderator on Stratus then please send an email to the email address below. Please treat this email like you are applying for a job, simply listing your discord will not suffice.</p>
-  		<div class="item"><div class="ui labeled action large input">
-  			<div class="ui label">Mods</div>
-  		<input id="modapps" readonly type="text" style="width:225px;" value="stratus.staff@gmail.com "> <button onclick="popup('#modapps', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#modapps" id="modal">Copy</button>
-		</div>
-		</div>
-  </div>
-
-  </div>
-  	<div class="ui modal devs">
-  <i class="close icon"></i>	
-  <div class="ui header">Developer Applications</div>
-      <div class="ui content" style="text-align:center;">
-  	<p class="ui text">If you would like to apply for Developer on Stratus then please send a message to Shiny on Discord. Please treat this message like you are applying for a job. Make sure to include what programming languages you are fluent in and if you are familiar with git and github. Also make sure to include if you are familiar with PGM if you are applying to be a plugin dev.</p>
-  		<div class="item"><div class="ui labeled action large input">
-  			<div class="ui label">Devs</div>
-  		<input id="devapps" readonly type="text" style="width:120px;" value="Shiny#6032"> <button onclick="popup('#devapps', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#devapps" id="modal">Copy</button>
-		</div>
-		</div>
-  </div>
-  </div>
+<div class="ui modal devs">
+    <i class="close icon"></i>
+    <div class="ui header">Developer Applications</div>
+    <div class="ui content" style="text-align:center;">
+        <p class="ui text">If you would like to apply for Developer on Stratus then please send a message to Shiny on Discord. Please treat this message like you are applying for a job. Make sure to include what programming languages you are fluent in and if you are familiar with git and github. Also make sure to include if you are familiar with PGM if you are applying to be a plugin dev.</p>
+        <div class="item">
+            <div class="ui labeled action large input">
+                <div class="ui label">Devs</div>
+                <input id="devapps" readonly type="text" style="width:120px;" value="Shiny#6032">
+                <button onclick="popup('#devapps', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#devapps" id="modal">Copy</button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="ui modal if-cc">
-  <i class="close icon"></i>	
-  <div class="ui header">Content Creator and Internet Famous Applications</div>
-      <div class="ui content">
-  	<div class="ui content" style="text-align:center;">
-  	<p class="ui text">If you meet the <a href="/if-cc">requirments</a> for either Content Creator or Internet Famous then please fill out this <a href="https://goo.gl/forms/rp0iHd6yjNMKhug02">application</a> form. Thank you and we will process it as swiftly as possible. </p>
-  </div>
-  </div>
-  </div>
+    <i class="close icon"></i>
+    <div class="ui header">Content Creator and Internet Famous Applications</div>
+    <div class="ui content">
+        <div class="ui content" style="text-align:center;">
+            <p class="ui text">If you meet the <a href="/if-cc">requirements</a> for either Content Creator or Internet Famous then please fill out this <a href="https://goo.gl/forms/rp0iHd6yjNMKhug02">application</a> form. We will process it as swiftly as possible.</p>
+        </div>
+    </div>
+</div>
