@@ -3,68 +3,44 @@ layout: default
 title: Stratus Network - Apply
 permalink: apply
 ---
-<div class="ui container" style="padding-top:55px;">
-    <h1 class="ui text header left">Apply</h1>
-    <div class="sub header">
-        <h4 class="ui text header left">A central listing of all the positions currently open for application on Stratus.</h4>
-    </div>
+<section>
+  <div class="row">
+    <h1>Apply</h1>
+    <h4>A central listing of all the positions currently open for application on Stratus.</h4>
     <hr>
-    <br>
-    <div class="ui two stackable cards">
-        <div class="card" id="devs">
-            <div class="content">
-                <div class="ui grid">
-                    <div class="twelve wide column">
-                        <h3>Developer</h3>
+  </div>
+    <div class="row">
+        <div class="col-md-6" id="devs">
+          <div class="stratus-card">
+            <div class="stratus-card-container">
+                        <div class="row">
+                          <div class="stratus-card-title">Developer</div>
+                        </div>
                         <hr>
                         <p>Help develop Stratus's plugins and website to make Stratus the best server ever!</p>
-                    </div>
-                    <div class="four wide column">
-                        <div class="ui centered middle aligned grid" style="padding-top: 50%">
-                            <a onclick="$('.ui.modal.devs').modal('show');" class="ui blue large button floated">Apply</a>
-                        </div>
-                    </div>
+                        <hr>
+                    <a onclick="$('.ui.modal.devs').modal('show');" class="btn btn-primary stratus-card-link">Apply</a>
+                  </div>
                 </div>
-            </div>
         </div>
-        <div class="card" id="cc">
-            <div class="content">
-                <div class="ui grid">
+        <div class="col-md-6" id="cc">
+          <div class="stratus-card">
+            <div class="stratus-card-container">
                     <div class="twelve wide column">
-                        <h3>Content Creator & Internet Famous</h3>
+                        <div class="row">
+                          <div class="stratus-card-title">Content Creator & Internet Famous</div>
+                        </div>
                         <hr>
                         <p>Create content on Stratus and meet the <a href="/if-cc">requirements</a>? Apply for the rank and achieve special perks!</p>
                     </div>
-                    <div class="four wide column">
-                        <div class="ui centered middle aligned grid" style="padding-top: 50%">
-                            <a onclick="$('.ui.modal.if-cc').modal({autofocus: false,}).modal('show');" class="ui blue large button floated">Apply</a>
-                        </div>
+                    <hr>
+                    <a onclick="$('.ui.modal.if-cc').modal({autofocus: false,}).modal('show');" class="btn btn-primary stratus-card-link">Apply</a>
                     </div>
+                  </div>
                 </div>
-            </div>
         </div>
-        <!--
-        <div class="card" id="mods">
-            <div class="content">
-                <div class="ui grid">
-                    <div class="twelve wide column">
-                        <h3>Moderator</h3>
-                        <hr>
-                        <p>Help moderate Stratus and maintain the status quo in game!</p>
-                    </div>
-                    <div class="four wide column">
-                        <div class="ui centered middle aligned grid" style="padding-top: 50%">
-                            <a onclick="$('.ui.modal.mods').modal('show');" class="ui blue large button floated">Apply</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
-    <hr>
-    <br>
-</div>
-<br>
+  </section>
+  <br><br>
 <!--
 <div class="ui modal mods">
     <i class="close icon"></i>
