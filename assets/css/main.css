@@ -62,13 +62,31 @@ hr {
 }
 
 .stratus-card {
-	margin-top: 15px; 
 	background-color: white;
-	border-radius: 15px;
+	box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+	border-radius: .285714rem;
+	margin-top: 15px; 
 }
 
 .stratus-card-container {
 	width: 98%;
 	margin: auto;
 	padding: 20px;
+}
+
+.stratus-card-title {
+	font-size: 20px;
+}
+
+.stratus-card-content {
+	background-color: #F8F8F9;
+	font-size: 15px;
+	border: 1px solid grey;
+	padding: 7px 14px 7px 14px;
+	border-radius: 5px;
+	margin: 7px;
+}
+
+.stratus-card-link {
+	margin-bottom: 12px;
 }
