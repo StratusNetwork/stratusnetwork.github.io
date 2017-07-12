@@ -60,3 +60,15 @@ hr {
 	margin-bottom: 20px;
 	line-height: 15px;
 }
+
+.stratus-card {
+	margin-top: 15px; 
+	background-color: white;
+	border-radius: 15px;
+}
+
+.stratus-card-container {
+	width: 98%;
+	margin: auto;
+	padding: 20px;
+}
