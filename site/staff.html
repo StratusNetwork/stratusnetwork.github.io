@@ -3,170 +3,133 @@ layout: default
 title: Stratus Network - Staff
 permalink: staff
 ---
-<div class="container staff-container">
-	<div class="row">
-		<h1>Staff</h1>
-		<h4>These fine people help run the network!</h4>
-		<hr>
+<div class="ui container" style="padding-top:40px;">
+	<br>
+	<h1 class="ui text header left">Staff</h1>
+	<div class="sub header">
+		<h4 class="ui text header left">These fine people help run the network!</h4>
 	</div>
-
-	<div class="row">
-		<h3 style="color:#f89406;">Administrators</h3>
-		<hr>
-	</div>
-	<div class="row">
-		{% for player in site.data.staff.administrators %}
-		{% assign loopindex = forloop.index | modulo: 4 %}
-		{% if loopindex == 1 %} <div class="row"> {% endif %}
-		<div class="col-md-3">
-			<center>
-			<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-			<div class="ui center aligned header" style="color:#f89406;margin:13px 0 6px 0;">{{player.name}}</div>
-			<div class="center aligned sub header">{{player.role}}</div>
-		</center>
+	<hr>
+	<div class="ui container" style="padding-left:25px">
+		<div class="ui vertical segment" id="Admins">
+			<h2 class="ui medium header" style="font-size:20px;color:#f89406;">Administrators</h2>
 		</div>
-		{% if loopindex == 0 or forloop.index == site.data.staff.administrators.size %} </div> {% endif %}
-		{% endfor %}
-	</div>
-
-		<div class="row">
-			<h3 style="color:purple;">Developers</h3>
-			<hr>
-		</div>
-			{% for player in site.data.staff.developers %}
-			{% assign loopindex = forloop.index | modulo: 4 %}
-			{% if loopindex == 1 %} <div class="row"> {% endif %}
-			<div class="col-md-3">
-				<center>
-				<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-				<div class="ui center aligned header" style="color:purple;margin:13px 0 6px 0;">{{player.name}}</div>
-				<div class="center aligned sub header">{{player.role}}</div>
-			</center>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.administrators %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#f89406;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
 			</div>
-			{% if loopindex == 0 or forloop.index == site.data.staff.developers.size %} </div> {% endif %}
-   		{% endfor %}
-
-    <div class="row">
-			<h3 style="color:#be5bff;">Junior Developers</h3>
-			<hr>
 		</div>
-			{% for player in site.data.staff.juniordevelopers %}
-			{% assign loopindex = forloop.index | modulo: 4 %}
-			{% if loopindex == 1 %} <div class="row"> {% endif %}
-			<div class="col-md-3">
-				<center>
-				<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-				<div class="ui center aligned header" style="color:#be5bff;margin:13px 0 6px 0;">{{player.name}}</div>
-        <div class="center aligned sub header">Junior Developer</div>
-				<div class="center aligned sub header">{{player.role}}</div>
-			</center>
+		<div class="ui vertical segment" id="Devs">
+			<h2 class="ui medium header" style="font-size:20px;color:purple;">Developers</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.developers %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:purple;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
 			</div>
-
-			{% if loopindex == 0 or forloop.index == site.data.staff.juniordevelopers.size %} </div> {% endif %}
-			{% endfor %}
-
-		<div class="row">
-			<h3 style="color:#AA0000;">Senior Moderators</h3>
-			<hr>
 		</div>
-			{% for player in site.data.staff.snrmoderators %}
-			{% assign loopindex = forloop.index | modulo: 4 %}
-			{% if loopindex == 1 %} <div class="row"> {% endif %}
-			<div class="col-md-3">
-				<center>
-				<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-				<div class="ui center aligned header" style="color:#AA0000;margin:13px 0 6px 0;">{{player.name}}</div>
-				<div class="center aligned sub header">Senior Moderator</div>
-			</center>
+        <div class="ui vertical segment" id="juniordevs">
+			<h2 class="ui medium header" style="font-size:20px;color:#be5bff;">Junior Developers</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.juniordevelopers %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#be5bff;margin:13px 0 6px 0;">{{player.name}}</div>
+                    <div class="center aligned sub header">Junior Developer</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
 			</div>
-			{% if loopindex == 0 or forloop.index == site.data.staff.snrmoderators.size %} </div> {% endif %}
-			{% endfor %}
-
-		<div class="row" id="mods">
-			<h3 style="color:#F20;">Moderators</h3>
-			<hr>
 		</div>
+		<div class="ui vertical segment" id="snrmmods">
+			<h2 class="ui medium header" style="font-size:20px;color:#AA0000;">Senior Moderators</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.snrmoderators %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#AA0000;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">Senior Moderator</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="mods">
+			<h2 class="ui medium header" style="font-size:20px;color:#F20;">Moderators</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
 				{% for player in site.data.staff.moderators %}
-				{% assign loopindex = forloop.index | modulo: 4 %}
-		  	{% if loopindex == 1 %} <div class="row"> {% endif %}
-				<div class="col-md-3">
-					<center>
-					<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
 					<div class="ui center aligned header" style="color:#F20;margin:13px 0 6px 0;">{{player.name}}</div>
 					<div class="center aligned sub header">Moderator</div>
-				</center>
 				</div>
-				{% if loopindex == 0 or forloop.index == site.data.staff.moderators.size %} </div> {% endif %}
 				{% endfor %}
-
-    <div class="row" id="juniormods">
-			<h3 style="color:#F88;">Junior Moderators</h2>
-			<hr>
-		</div>
-		{% for player in site.data.staff.juniormoderators %}
-		{% assign loopindex = forloop.index | modulo: 4 %}
-		{% if loopindex == 1 %} <div class="row"> {% endif %}
-		<div class="col-md-3">
-			<center>
-			<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-			<div class="ui center aligned header" style="color:#F88;margin:13px 0 6px 0;">{{player.name}}</div>
-			<div class="center aligned sub header">Junior Moderator</div>
-		</center>
-		</div>
-		{% if loopindex == 0 or forloop.index == site.data.staff.juniormoderators.size %} </div> {% endif %}
- 		{% endfor %}
-
-		<div class="row" id="eventstaff">
-			<h3 style="color:#016666;">Event Staff</h3>
-			<hr>
-		</div>
-		{% for player in site.data.staff.eventstaff %}
-		{% assign loopindex = forloop.index | modulo: 4 %}
-		{% if loopindex == 1 %} <div class="row"> {% endif %}
-		<div class="col-md-3">
-			<center>
-			<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-			<div class="ui center aligned header" style="color:#016666;margin:13px 0 6px 0;">{{player.name}}</div>
-			<div class="center aligned sub header">{{player.role}}</div>
-		</center>
-		</div>
-		{% if loopindex == 0 or forloop.index == site.data.staff.eventstaff.size %} </div> {% endif %}
-		{% endfor %}
-
-		<div class="row" id="mapdevs">
-			<h3 style="color:#008000;">Map Developers</h3>
-			<hr>
-		</div>
-		{% for player in site.data.staff.mapdevelopers %}
-		{% assign loopindex = forloop.index | modulo: 4 %}
-		{% if loopindex == 1 %} <div class="row"> {% endif %}
-		<div class="col-md-3">
-			<center>
-				<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-				<div class="ui center aligned header" style="color:#008000;margin:13px 0 6px 0;">{{player.name}}</div>
-				<div class="center aligned sub header">{{player.role}}</div>
-			</center>
-		</div>
-		{% if loopindex == 0 or forloop.index == site.data.staff.mapdevelopers.size %} </div> {% endif %}
-		{% endfor %}
-
-		<div class="row" id="advisors">
-			<h3 style="color:#AA0000;">Advisors</h3>
-			<hr>
-		</div>
-			{% for player in site.data.staff.advisors %}
-			{% assign loopindex = forloop.index | modulo: 4 %}
-			{% if loopindex == 1 %} <div class="row"> {% endif %}
-			<div class="col-md-3">
-				<center>
-				<img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
-				<div class="ui center aligned header" style="color:#AA0000;margin:13px 0 6px 0;">{{player.name}}</div>
-				<div class="center aligned sub header">Advisor</div>
-				</center>
 			</div>
-			{% if loopindex == 0 or forloop.index == site.data.staff.advisors.size %} </div> {% endif %}
-			{% endfor %}
-
-			<br><br>
-
+		</div>
+        <div class="ui vertical segment" id="juniormods">
+			<h2 class="ui medium header" style="font-size:20px;color:#F88;">Junior Moderators</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.juniormoderators %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#F88;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">Junior Moderator</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="eventstaff">
+			<h2 class="ui medium header" style="font-size:20px;color:#016666;">Event Staff</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.eventstaff %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#016666;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="mapdevs">
+			<h2 class="ui medium header" style="font-size:20px;color:#008000;">Map Developers</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.mapdevelopers %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#008000;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">{{player.role}}</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="ui vertical segment" id="advisors">
+			<h2 class="ui medium header" style="font-size:20px;color:#AA0000;">Advisors</h2>
+		</div>
+		<div class="ui vertical segment">
+			<div class="ui grid row">
+				{% for player in site.data.staff.advisors %}
+				<div class="four wide center aligned column"><img class="ui centered aligned image rounded" height="90" src="https://crafatar.com/avatars/{{player.id}}?overlay" width="90">
+					<div class="ui center aligned header" style="color:#AA0000;margin:13px 0 6px 0;">{{player.name}}</div>
+					<div class="center aligned sub header">Advisor</div>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+    <hr>
+    <br>
 </div>
