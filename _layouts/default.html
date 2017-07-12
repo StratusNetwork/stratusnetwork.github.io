@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<title>{{page.title }}</title>
-	<link href="assets\favicon.ico" rel="shortcut icon" type="image/png">
-	<link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>{{page.title }}</title>
+    <link href="assets\favicon.ico" rel="shortcut icon" type="image/png">
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<script type="text/javascript" src="/assets/scripts/clipboard.js"></script>
-	<link href="/assets/css/main.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" >
-	function popup(id, position, title) {
-    $(id).popup({
-        title: title,
-        position: position,
-        hoverable: false,
-        lastResort: 'top center'
-    })
-    $(id).popup('show');
-    setTimeout(function(){
-        $(id).popup('destroy');
-    }, 750);
+    <script type="text/javascript" src="/assets/scripts/clipboard.js"></script>
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        function popup(id, position, title) {
+            $(id).popup({
+                title: title,
+                position: position,
+                hoverable: false,
+                lastResort: 'top center'
+            })
+            $(id).popup('show');
+            setTimeout(function() {
+                $(id).popup('destroy');
+            }, 750);
 
-    }
-	</script>
+        }
+    </script>
 </head>
+
 <body>
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
-
-	        <div class="navbar-header">
-	            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
-	                <span class="sr-only">Toggle navigation</span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	            </button>
-	            <a class="navbar-brand" href="/index">
-								<img style="margin-right: 5px" alt="Brand" class="pull-left" height="24px" src="/assets/img/logo.png">
-								Stratus Network
-							</a>
-						</div>
-			    </div>
-	        <div class="collapse navbar-collapse" id="mobile-navbar">
-	            <ul class="nav navbar-nav">
-	                <li><a href="/announcements">Announcements</a></li>
-	                <li><a href="https://stratusnetwork.buycraft.net/" target="_blank">Shop</a></li>
-	                <li><a href="/rules">Rules</a></li>
-	            </ul>
-	        </div>
-				</div>
-	    </nav>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/index">
+                    <img style="margin-right: 5px" alt="Brand" class="pull-left" height="24px" src="/assets/img/logo.png"> Stratus Network
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="mobile-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="/announcements">Announcements</a></li>
+                    <li><a href="https://stratusnetwork.buycraft.net/" target="_blank">Shop</a></li>
+                    <li><a href="/rules">Rules</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <div class="container" style="padding-top: 70px">
 
-    	{{ content }}
- 
+        {{ content }}
+
     </div>
-  
     <section style="background-color: white; padding-top: 20px; border-top-style: solid; border-color: lightgray">
         <div class="container">
             <div class="row">
@@ -140,40 +138,50 @@
         </div>
         <br>
     </section>
-	</div>
-<div class="ui modal reports">
-  <i class="close icon"></i>	
-  <div class="ui header">Reports</div>
-  <div class="ui content" style="text-align:center;">
-  	<p class="ui text">If you would like to report a player for breaking a rule, please send an email to the address below, including your Minecraft in-game name, the Minecraft in-game name of the player you are reporting, the rule the player broke and evidence of the player breaking said rule. We will deal with your report as quickly as possible. Thank you for your patience.</p>
-  		<div class="item"><div class="ui labeled action large input">
-  			<div class="ui label">Reports</div>
-  		<input id="reports" readonly type="text" style="width:225px;" value="networkstratus@gmail.com "> <button onclick="popup('#reports', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#reports" id="modal">Copy</button>
-		</div>
-		</div>
-  </div>
-  </div>
-  <div class="ui modal appeals">
-  <i class="close icon"></i>	
-  <div class="ui header">Appeals</div>
-  <div class="ui content" style="text-align:center;">
-  <p class="ui text">If you would like to appeal a punishment please send an email to the address below, including your Minecraft in-game name, the reason for which you were punished, why you believe the punishment is incorrect or too severe and any counter-evidence you have.  We will deal with your appeal as quickly as possible. Thank you for your patience.</p>
-  		<div class="ui item"><div class="ui labeled action large input">
-  			<div class="ui label">Appeals</div>
-  		<input id="appeals" readonly type="text" style="width:225px;" value="stratusappeals@gmail.com "> <button onclick="popup('#appeals', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#appeals" id="modal">Copy</button>
-		</div>
-		</div>
-  </div>
-  </div>
+    <div class="ui modal reports">
+        <i class="close icon"></i>
+        <div class="ui header">Reports</div>
+        <div class="ui content" style="text-align:center;">
+            <p class="ui text">If you would like to report a player for breaking a rule, please send an email to the address below, including your Minecraft in-game name, the Minecraft in-game name of the player you are reporting, the rule the player broke and evidence of the player breaking said rule. We will deal with your report as quickly as possible. Thank you for your patience.</p>
+            <div class="item">
+                <div class="ui labeled action large input">
+                    <div class="ui label">Reports</div>
+                    <input id="reports" readonly type="text" style="width:225px;" value="networkstratus@gmail.com ">
+                    <button onclick="popup('#reports', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#reports" id="modal">Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui modal appeals">
+        <i class="close icon"></i>
+        <div class="ui header">Appeals</div>
+        <div class="ui content" style="text-align:center;">
+            <p class="ui text">If you would like to appeal a punishment please send an email to the address below, including your Minecraft in-game name, the reason for which you were punished, why you believe the punishment is incorrect or too severe and any counter-evidence you have. We will deal with your appeal as quickly as possible. Thank you for your patience.</p>
+            <div class="ui item">
+                <div class="ui labeled action large input">
+                    <div class="ui label">Appeals</div>
+                    <input id="appeals" readonly type="text" style="width:225px;" value="stratusappeals@gmail.com ">
+                    <button onclick="popup('#appeals', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#appeals" id="modal">Copy</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-93225802-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-93225802-1', 'auto');
+    ga('send', 'pageview');
 </script>
 </html>
