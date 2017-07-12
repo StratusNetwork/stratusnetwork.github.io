@@ -2,6 +2,13 @@ body {
 	background-color: #e8e8e8;
 }
 
+hr {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
 div.head {
 	color: #e8e8e8;
 	border: 2px solid #e8e8e8;
