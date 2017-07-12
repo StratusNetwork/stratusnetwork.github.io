@@ -54,3 +54,9 @@ hr {
   border: 0;
   border-top: 1px solid #ccc;
 }
+
+.staff-container .col-md-3 {
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 15px;
+}
