@@ -6,22 +6,21 @@ title: Stratus Network - Home
 <script type="text/javascript" src="/assets/scripts/livestamp.js"></script>
 <script type="text/javascript" src="/assets/scripts/index.js"></script>
 
-<div class="ui head container padded blue inverted center aligned segment" style="background-image: url('assets/img/banner.png'); background-size: cover; background-position: center top; border-radius: 30px;">
-    <div class="ui head landing-text">
-        <div class="ui labeled action input" style="padding-top:178.000011px">
-            <div class="ui label">
-                IP:
-            </div>
-            <input id="ip" readonly type="text" value="play.stratus.network">
-            <button onclick="popup('#ip', 'top center', 'Copied!')" class="ui icon button" data-clipboard-target="#ip" id="btn"><i class="blue clipboard icon"></i></button>
-        </div>
+
+<div class="jumbotron" style="background-image: url('assets/img/banner.png'); background-size: cover; background-position: center top;">
+  <center>
+  <div class="stratus-input-group" style="padding-top:190.000011px; margin: auto;">
+      <span class="stratus-input-group-addon">IP:</span>
+      <input id="ip" readonly type="text" class="stratus-form-control" value="play.stratus.network">
+      <button onclick="popup('#ip', 'top center', 'Copied!')" class="stratus-input-group-btn" data-clipboard-target="#ip" id="btn"><i class="fa fa-clipboard"></i></button>
+  </div>
         <br>
-        <div class="ui pointing blue label" id="bounce">
+        <div class="stratus-blue-tooltip stratus-pointing" id="bounce">
             <b id="players"></b> players online
             <br>
             <small>Last updated <b id="last_updated"></b></small>
         </div>
-    </div>
+      </center>
 </div>
 
 <section>
