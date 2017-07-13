@@ -12,7 +12,7 @@ title: Stratus Network - Home
   <div class="stratus-input-group" style="padding-top:190.000011px; margin: auto;">
       <span class="stratus-input-group-addon">IP:</span>
       <input id="ip" readonly type="text" class="stratus-form-control" value="play.stratus.network">
-      <button onclick="popup('#ip', 'top center', 'Copied!')" class="stratus-input-group-btn" data-clipboard-target="#ip" id="btn"><i class="fa fa-clipboard"></i></button>
+      <button onclick="popup('#ip', 'top center', 'Copied!')" class="stratus-input-group-btn" data-toggle="popover" data-placement="top" data-content="Copied!" data-clipboard-target="#ip" id="btn"><i class="fa fa-clipboard"></i></button>
   </div>
         <br>
         <div class="stratus-blue-tooltip stratus-pointing" id="bounce">
@@ -50,3 +50,8 @@ title: Stratus Network - Home
     </div>
     <br>
 </section>
+<script>
+$(function() {
+  $('[data-toggle="popover"]').popover()
+})
+</script>
