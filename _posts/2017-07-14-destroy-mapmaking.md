@@ -23,21 +23,21 @@ The Map Developers would like to announce our second map making competition, **D
 - Submit your map here: https://github.com/StratusNetwork/Map-Rotations/issues
 
 **Dates:**
-Submissions close: August 12th, 2017
-Public Testing: August 26th, 2017
+Submissions close: August 12th, 2017  
+Public Testing: August 26th, 2017  
 Results: TBD (most likely following week)
 
 **Scoring:**
-Public rating: /5 (weight: 20%)
-Gameplay: /10 (weight: 40%)
-Aesthetics: /10 (weight: 25%)
-Innovation: /10 (weight: 15%)
-3% bonus for completed XML with minimal errors.
+Public rating: /5 (weight: 20%)  
+Gameplay: /10 (weight: 40%)  
+Aesthetics: /10 (weight: 25%)  
+Innovation: /10 (weight: 15%)  
+3% bonus for completed XML with minimal errors.  
 Public rating will take place during the "public testing" period
 
 **Prizes:**
-1st Place: Strato, [Mapmaking Competition #2 Winner] tag on discord for 1 month
-2nd Place: [Stratus- (1 month)](http://stratusnetwork.buycraft.net/category/883326), [Mapmaking Competition #2 Runner Up] tag on discord for 1 month
+1st Place: Strato, [Mapmaking Competition #2 Winner] tag on discord for 1 month  
+2nd Place: [Stratus- (1 month)](http://stratusnetwork.buycraft.net/category/883326), [Mapmaking Competition #2 Runner Up] tag on discord for 1 month  
 3rd Place: 1 stack of tokens
 
 If there is more than 1 author on the map, you must post how you will split the prizes in your submission.
