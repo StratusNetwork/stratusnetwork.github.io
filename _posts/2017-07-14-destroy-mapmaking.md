@@ -5,6 +5,8 @@ author: The Map Devs
 permalink: destroy-map-competition
 layout: posts
 ---
+_For Destroy examples click [here](http://stratus.network/destroy-map-examples)_
+
 The Map Developers would like to announce our second map making competition, **DMC**
 *(Destroy Mapmaking Competition. Original, right?)*
 
