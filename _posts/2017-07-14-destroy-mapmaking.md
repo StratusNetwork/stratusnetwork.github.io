@@ -1,6 +1,6 @@
 ---
 title:  "Destroy Mapmaking Competition!"
-date:   2017-05-08
+date:   2017-07-14
 author: The Map Devs
 permalink: dmc
 layout: posts
