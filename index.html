@@ -6,24 +6,36 @@ title: Stratus Network - Home
 <script type="text/javascript" src="/assets/scripts/livestamp.js"></script>
 <script type="text/javascript" src="/assets/scripts/index.js"></script>
 <style type="text/css">
-    html, body { overflow-x: hidden; }
+    html,
+    body {
+        overflow-x: hidden;
+    }
 </style>
-<div class="jumbotron" style="background-image: url('assets/img/banner.png'); background-size: cover; background-position: center top; border-radius: 25px">
-  <center>
-  <div class="stratus-input-group" style="padding-top:210.000011px; margin: auto;">
-      <span class="stratus-input-group-addon">IP:</span>
-      <input id="ip" readonly type="text" class="stratus-form-control" value="play.stratus.network">
-      <button class="stratus-input-group-btn" data-toggle="popover" data-placement="top"  data-content="Copied!" data-clipboard-target="#ip" id="btn"><i class="fa fa-clipboard"></i></button>
-  </div>
-        <br>
-        <div class="stratus-blue-tooltip stratus-pointing" id="bounce">
-            <b id="players"></b> players online
+<section>
+    <div class="jumbotron" style="background-image: url('assets/img/banner.png'); background-size: cover; background-position: center top; border-radius: 25px">
+        <center>
+            <div class="stratus-input-group" style="padding-top:210.000011px; margin: auto;">
+                <span class="stratus-input-group-addon">IP:</span>
+                <input id="ip" readonly type="text" class="stratus-form-control" value="play.stratus.network">
+                <button class="stratus-input-group-btn" data-toggle="popover" data-placement="top" data-content="Copied!" data-clipboard-target="#ip" id="btn"><i class="fa fa-clipboard"></i></button>
+            </div>
             <br>
-            <small>Last updated <b id="last_updated"></b></small>
-        </div>
-      </center>
+            <div class="stratus-blue-tooltip stratus-pointing" id="bounce">
+                <b id="players"></b> players online
+                <br>
+                <small>Last updated <b id="last_updated"></b></small>
+            </div>
+        </center>
+    </div>
+</section>
+<div class="stratus-card">
+    <div class="stratus-card-container">
+        <b>Latest Announcements: </b>
+        {% for post in site.posts limit:3  %}
+        <a data-tooltip="Created {{post.date | date: "%b %d %Y"}}" data-position="bottom center" style="margin-left:10px;" href="{{post.url}}">{{post.title | truncate: 45}}</a>
+        {% endfor %}
+    </div>
 </div>
-
 <section>
     <div class="row">
         <h3 style="text-align: center; font-weight: bold">About Us</h3>
@@ -32,7 +44,6 @@ title: Stratus Network - Home
     </div>
     <div class="row">
         <br>
-
         <hr>
         <br>
     </div>
