@@ -45,6 +45,6 @@ If there is more than 1 author on the map, you must post how you will split the 
 More competitions will be held in the future, so stay tuned for that! Our build server is available by connecting to `play.stratus.network` and going to `/server cloudy` ... Good luck to everyone!
 
 **Resources:**
-[XML Documentation](http://docs.stratus.network)
-[Map References](http://docs.stratus.network/examples/)
+[XML Documentation](http://docs.stratus.network)  
+[Map References](http://docs.stratus.network/examples/)  
 [Plugins and Mods](http://docs.stratus.network/guides/plugins)
