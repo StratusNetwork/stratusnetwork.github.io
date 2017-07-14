@@ -27,6 +27,15 @@ title: Stratus Network - Home
     </div>
 </div>
 <div class="ui container center aligned">
+    <div class="ui icon message">
+        <i class="announcement icon"></i>
+        <div class="content">
+            <b>Latest Announcements: </b>
+            {% for post in site.posts limit:3  %}
+            <a data-tooltip="Created {{post.date | date: "%b %d %Y"}}" data-position="bottom center" style="margin-left:10px;" href="{{post.url}}">{{post.title | truncate: 45}}</a>
+            {% endfor %}
+        </div>
+    </div>
     <section class="main">
         <h1 class="ui header">About us</h1>
         <hr>
