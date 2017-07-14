@@ -71,7 +71,7 @@ hr {
 }
 .text-muted {
 	color: black
-}	
+}
 .stratus-card {
 	background-color: white;
 	box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
@@ -194,4 +194,20 @@ hr {
 	z-index: 2;
 	width: .6666em;
 	height: .6666em;
+}
+
+@media (max-width: 432px) {
+	.stratus-input-group-btn {
+		display: none;
+	}
+
+	.stratus-input-group-addon {
+		display: none;
+	}
+
+	.stratus-form-control {
+		border: 1px solid #ccc !important;
+		border-radius: 5px !important;
+	}
+
 }
