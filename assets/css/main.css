@@ -25,21 +25,189 @@ h1 {
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.870588);
 }
+
 a:link {
 	text-decoration: none;
 
 }
+
 a:visited {
 	text-decoration: none;
 
 }
+
 a:hover {
 	    background-color: #e8e8e8;
 }
+
 .card {
 	width:100px;
 	height:129px;
 }
 .footer  {
 	text-align:left !important;
+}
+
+nav {
+	font-size: 16px;
+}
+
+hr {
+  margin-top: 23px;
+  margin-bottom: 23px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+.staff-container .col-md-3 {
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 15px;
+}
+
+
+.stratus-white-btn {
+	background-color: rgba(255,255,255,.45);
+}
+.text-muted {
+	color: black
+}
+.stratus-card {
+	background-color: white;
+	box-shadow: 0 1px 2px 0 rgba(34, 36, 38, 0.15);
+	border-radius: .285714rem;
+	margin-top: 15px; 
+}
+
+.stratus-card-container {
+	background-color: white; /* CSS is like that special kid in your school. Always leaves you dumbfounded and amazed. */
+	width: 98%;
+	margin: auto;
+	padding: 20px;
+}
+
+.stratus-card-title {
+	font-size: 20px;
+}
+
+.stratus-card-subtitle {
+	font-size: 16px;
+}
+
+.stratus-card-content {
+	background-color: #F8F8F9;
+	font-size: 15px;
+	border: 1px solid grey;
+	padding: 7px 14px 7px 14px;
+	border-radius: 5px;
+	margin: 7px;
+}
+
+.stratus-card-link {
+	margin-bottom: 12px;
+}
+
+.stratus-jumbo-text {
+	color: #e8e8e8;
+	border: 2px #e8e8e8;
+	border-radius: 25px;
+	padding: 30px;
+}
+
+.stratus-input-group {
+	font-size: 1em;
+	position: relative;
+	font-weight: 400;
+	font-size: normal;
+	display: inline-flex;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+.stratus-input-group-addon {
+	padding-top: .78571429em !important;
+	padding-bottom: .78571429em !important;
+	font-size: 20px !important;
+	font-weight: 200;
+	display: inline-block;
+	padding: .5833em .833em !important;
+	line-height: 1;
+	vertical-align: baseline;
+	color: rgba(0,0,0,.6);
+	text-transform: none;
+	background-color: #eee;
+	border: 0px solid transparent;
+	border-radius: 4px 0px 0px 4px;
+}
+
+.stratus-form-control {
+	padding: .67861429em 1em !important;
+	margin: 0;
+	max-width: 100%;
+	flex: 1 0 auto;
+	outline: 0;
+	text-align: left;
+	line-height: 1.2142em;
+	border: 1px solid #ccc;
+}
+
+.stratus-input-group-btn {
+	padding-top: .78571429em !important;
+	padding-bottom: .78571429em !important;
+	font-size: 20px !important;
+	font-weight: 200;
+	display: inline-block;
+	padding: .5833em .833em !important;
+	line-height: 1;
+	vertical-align: baseline;
+	color: #2185D0;
+	text-transform: none;
+	background-color: #eee;
+	border: 0px solid transparent;
+	border-radius: 0px 4px 4px 0px;
+}
+
+.stratus-input-group-btn:hover {
+	background-color: #ddd;
+}
+
+.stratus-blue-tooltip {
+	position: relative;
+	margin-top: 1em;
+	background-color: #2185D0;
+	border-color: #2185D0;
+	color: #FFF;
+	width: 200px;
+	border-radius: 5px;
+}
+
+.stratus-pointing:before {
+	background-color: inherit;
+	border-style: solid;
+	border-color: inherit;
+	position: absolute;
+	top: 0;
+	border-width: 1px 0 0 1px;
+	transform: translateX(-50%) translateY(-50%) rotate(45deg);
+	left: 50%;
+	content: '';
+	background-image: none;
+	z-index: 2;
+	width: .6666em;
+	height: .6666em;
+}
+
+@media (max-width: 432px) {
+	.stratus-input-group-btn {
+		display: none;
+	}
+
+	.stratus-input-group-addon {
+		display: none;
+	}
+
+	.stratus-form-control {
+		border: 1px solid #ccc !important;
+		border-radius: 5px !important;
+	}
+
 }

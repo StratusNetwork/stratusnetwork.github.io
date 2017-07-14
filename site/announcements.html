@@ -3,27 +3,24 @@ layout: default
 title: Stratus Network - Announcements
 permalink: announcements
 ---
-<div class="ui container" style="padding-top:55px;">
-    <h1 class="ui text header left">Announcements</h1>
-    <hr> {% for post in site.posts %} {% assign author = site.data.authors[post.author] %}
-    <div class="ui compact segment" style="max-width:905px;width:auto;">
-        <div class="ui grid">
-            <div class="eleven wide column">
-                <div class="ui header medium">{{post.title}}<small style="padding-left:5px;">By <img class="ui avatar image" style="border-radius:.3125em;width:16px;height:16px;"src="https://crafatar.com/avatars/{{author.id}}?size=16"></img><b style="color:{{author.color}}">{{post.author}}</b></small></div>
-            </div>
-            <div class="five wide column">
-                <small style="float: right; font-weight: bold; font-size: 100%">{{post.date | date: "%b %d %Y"}}</small>
-            </div>
-        </div>
-        <div class="ui divider"></div>
-        <div class="ui message">
-            <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-        </div>
-        <div class="ui divider"></div>
-        <a class="ui blue button right floated" href="{{post.url}}">Keep Reading</a>
-    </div>
-    {% endfor %}
-    <br>
-    <hr>
-    <br>
+<div class="row">
+  <h1>Announcements</h1>
+  <hr>
 </div>
+{% for post in site.posts %} {% assign author = site.data.authors[post.author] %}
+<div class="row stratus-card">
+  <div class="stratus-card-container">
+    <div class="row">
+      <div class="stratus-card-title pull-left">{{post.title}}<small style="padding-left:5px;">By <img class="ui avatar image" style="border-radius:.3125em;width:16px;height:16px;"src="https://crafatar.com/avatars/{{author.id}}?size=16"></img><b style="color:{{author.color}}">{{post.author}}</b></small></div>
+      <div class="stratus-card-date pull-right">{{post.date | date: "%b %d %Y"}}</div>
+    </div>
+    <hr>
+    <div class="well">{{ post.content | strip_html | truncatewords: 50 }}</div>
+    <hr>
+    <a class="btn btn-primary stratus-card-link pull-right" href="{{post.url}}">Keep Reading</a>
+    </div>
+</div>
+{% endfor %}
+<br>
+<hr>
+<br>

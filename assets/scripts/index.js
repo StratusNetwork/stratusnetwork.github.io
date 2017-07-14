@@ -4,11 +4,7 @@ $('#players').append(data.players.online);
 $('#last_updated').livestamp(new Date(data.cache.insertion_time));
 }).fail(function() { 
       document.getElementById('bounce').innerText = 'Player Count \n Unavailable'
-}).done(function(){
-	 $('#bounce').transition('jiggle'); 
 });
-;
 /* gets JSON return from mcapi for players */
-
 
 new Clipboard('#btn');/* global Clipboard*/
