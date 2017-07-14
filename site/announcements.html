@@ -15,7 +15,7 @@ permalink: announcements
       <div class="stratus-card-date pull-right">{{post.date | date: "%b %d %Y"}}</div>
     </div>
     <hr>
-    <div class="stratus-card-content">{{ post.content | strip_html | truncatewords: 50 }}</div>
+    <div class="well">{{ post.content | strip_html | truncatewords: 50 }}</div>
     <hr>
     <a class="btn btn-primary stratus-card-link pull-right" href="{{post.url}}">Keep Reading</a>
     </div>
