@@ -30,9 +30,10 @@ title: Stratus Network - Home
 </section>
 <div class="stratus-card">
     <div class="stratus-card-container">
-        <b>Latest Announcements: </b>
+        <i class="glyphicon glyphicon-bullhorn"></i>
+        <b style="margin-left:10px">Latest Announcements: </b>
         {% for post in site.posts limit:3  %}
-        <a data-tooltip="Created {{post.date | date: "%b %d %Y"}}" data-position="bottom center" style="margin-left:10px;" href="{{post.url}}">{{post.title | truncate: 45}}</a>
+        <a data-trigger="hover" data-toggle="announcements"data-content="Created {{post.date | date: "%b %d %Y"}}" data-placement="bottom" style="margin-left:10px;" href="{{post.url}}">{{post.title | truncate: 60}}</a>
         {% endfor %}
     </div>
 </div>
@@ -62,3 +63,8 @@ title: Stratus Network - Home
     </div>
     <br>
 </section>
+<script type="text/javascript">
+$(function () {
+  $('[data-toggle="announcements"]').popover()
+})
+</script>
