@@ -2,7 +2,7 @@
 title:  "Destroy Mapmaking Competition!"
 date:   2017-07-14
 author: The Map Devs
-permalink: dmc
+permalink: destroy-map-competition
 layout: posts
 ---
 The Map Developers would like to announce our second map making competition, **DMC**
