@@ -9,7 +9,9 @@ layout: default
             <div class="stratus-card-title" style="font-weight: bold">{{page.title}}</div>
             <div class="stratus-card-subtitle">By <img class="avatar image" style="border-radius: .3125em; width: 16px; height: 16px" src="https://crafatar.com/avatars/{{author.id}}?size=16"><b style="color:{{author.color}}">{{page.author}}</b> on <b>{{page.date | date: "%b %d %Y"}}</b></div>
             <hr>
-            <div class="row">{{content}}</div>
+            <div class="row">
+              <div class="col-md-12">{{content}}</div>
+            </div>
         </div>
     </div>
 </section>
