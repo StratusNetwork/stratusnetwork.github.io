@@ -24,12 +24,12 @@ The Map Developers would like to announce our second map making competition, **D
 - Maps previously submitted to Stratus are not allowed to be entered into this competition
 - Submit your map here: https://github.com/StratusNetwork/Map-Rotations/issues
 
-**Dates:**
-Submissions close: August 12th, 2017  
-Public Testing: August 26th, 2017  
-Results: TBD (most likely following week)
+**Dates:**  
+Submissions close: August 20th at 12 am EST  
+Public Testing: September 1st to September 8th (specific times will be announced on/before the day)  
+Results: TBA (once we're happy with the testing, basically)
 
-**Scoring:**
+**Scoring:**  
 Public rating: /5 (weight: 20%)  
 Gameplay: /10 (weight: 40%)  
 Aesthetics: /10 (weight: 25%)  
@@ -37,7 +37,7 @@ Innovation: /10 (weight: 15%)
 3% bonus for completed XML with minimal errors.  
 Public rating will take place during the "public testing" period
 
-**Prizes:**
+**Prizes:**  
 1st Place: Strato, [Mapmaking Competition #2 Winner] tag on discord for 1 month  
 2nd Place: [Stratus- (1 month)](http://stratusnetwork.buycraft.net/category/883326), [Mapmaking Competition #2 Runner Up] tag on discord for 1 month  
 3rd Place: 1 stack of tokens
@@ -46,7 +46,7 @@ If there is more than 1 author on the map, you must post how you will split the 
 
 More competitions will be held in the future, so stay tuned for that! Our build server is available by connecting to `play.stratus.network` and going to `/server cloudy` ... Good luck to everyone!
 
-**Resources:**
+**Resources:**  
 [XML Documentation](http://docs.stratus.network)  
 [Map References](http://docs.stratus.network/examples/)  
 [Plugins and Mods](http://docs.stratus.network/guides/plugins)
