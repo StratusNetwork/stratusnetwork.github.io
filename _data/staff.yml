@@ -19,7 +19,13 @@ administrators:
 - id: 1c74c43029a0471fb30bcc2d9031ebcb
   name: Tazz
   role: General Development
+- id: dad8b95ccf6a44df982e8c8dd70201e0
+  name: ElectroidFilms
+  role: Business Analyst
 developers:
+- id: e82603df417d4a95bd1f1720648be0b4
+  name: Pablete1234
+  role: Plugin Development
 - id: 94812eb711604db4b349c2eac0792218
   name: Shawnn
   role: Website Development
@@ -32,6 +38,9 @@ developers:
 - id: 28889c74f739437287a8b965cd5f9d65
   name: Javipepe
   role: Plugin Development
+- id: dad8b95ccf6a44df982e8c8dd70201e0
+  name: ElectroidFilms
+  role: Maintenance/General Dev
 juniordevelopers:
 - id: 8f9344cf73674e289f245c66422f28c9
   name: Timotheeee
@@ -63,23 +72,23 @@ moderators:
   name: Snuskenmaxi
 - id: f4eae547b4d8434898447e444e31b389
   name: Tomqss
-- id: c4a072b2abe647a396bbc8ce07c90b60
-  name: Pelpelajax
 - id: 00c06fa61c534634931a929efd8a52df
   name: Nadastorm
-juniormoderators:
 - id: c88f74cc51e743dab89354f8ec630701
   name: Epicness
 - id: bf3319534f9243ee8abc7544b8234936
   name: ViceWatercolour
-- id: 62c41f0e133d4192ad33f0896f47d23a
-  name: nixter1029
 - id: 022321a8578b4438b0358a3ca735639f
   name: nintendoboy11
 - id: 94812eb711604db4b349c2eac0792218
   name: Shawnn
 - id: 76b4cc36f8994c428ad5f9ba48ffd4c4
   name: slayersource
+juniormoderators:
+- id: 62c41f0e133d4192ad33f0896f47d23a
+  name: nixter1029
+- id: 62b6d0818df84c09aa1571141ca7df76
+  name: VHHH
 eventstaff:
 - id: 453003c1d3a24b0ab4911205e503de90
   name: majjus_
@@ -102,29 +111,17 @@ eventstaff:
 - id: 0441596213e24010b5f16d5ed7e537d4
   name: Poseidons
   role: Senior Event Staff
-- id: 93902939ca9c4d9693f15af788d7d7ff
-  name: CanadasEpic
-  role: Senior Event Staff
 - id: e7e75b53a0dc46a1b0f0e9f24c21710e
   name: Maracas95
   role: Senior Event Staff
 - id: dff980ed9f69491eb79c30c21350baf2
   name: DoomyBoy
   role: Event Map Coordination
-- id: 037d948e4bbb441f8a59068ab65af822
-  name: Tigo
-  role: Event Producer
 - id: 6bec5c3a49344b199aa8c7c569820f7d
   name: Claf
   role: Event Map Coordination
 - id: 621b2aa84e5f4ed8bd360ae2f8952a06
   name: Strangey
-  role: Event Map Coordination
-- id: c4a072b2abe647a396bbc8ce07c90b60
-  name: Pelpelajax
-  role: Senior Event Staff
-- id: 2958ea4c3501404e88cc12e8632f68cc
-  name: Nixaniaxi
   role: Event Map Coordination
 mapdevelopers:
 - id: f690a591348b482ea18d7779d0c0a28c
@@ -142,6 +139,9 @@ mapdevelopers:
 - id: 0441596213e24010b5f16d5ed7e537d4
   name: Poseidons
   role: Community Map Developer
+- id: b03360dbb8cd49de8ba1b7920c2238a9
+  name: Obelistics
+  role: Community Map Developer
 - id: dff980ed9f69491eb79c30c21350baf2
   name: DoomyBoy
   role: Event Map Developer
@@ -151,9 +151,6 @@ mapdevelopers:
 - id: 621b2aa84e5f4ed8bd360ae2f8952a06
   name: Strangey
   role: Event Map Developer
-- id: b03360dbb8cd49de8ba1b7920c2238a9
-  name: Obelistics
-  role: Community Map Developer
 advisors:
 - id: e82603df417d4a95bd1f1720648be0b4
   name: Pablete1234
@@ -166,4 +163,4 @@ advisors:
 - id: 67ceac9432d849e084c70d5bbfd859ea
   name: Parkway
 - id: 1987fc00a5b243b5b94be3c0d25776e9
-  name: Brett
+  name: BrettOgden
