@@ -1,6 +1,6 @@
 ---
 title:  "Rotations have been updated!"
-date:   2017-19-08
+date:   2017-08-19
 author: The Map Devs
 permalink: rot-update-8-19-17
 layout: posts
