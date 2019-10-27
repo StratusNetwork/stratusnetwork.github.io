@@ -29,13 +29,6 @@
                     <img style="margin-right: 5px" alt="Brand" class="pull-left" height="24px" src="/assets/img/logo.png"> Stratus Network
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="mobile-navbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="/announcements">Announcements</a></li>
-                    <li><a href="http://shop.stratus.network/" target="_blank">Shop</a></li>
-                    <li><a href="/rules">Rules</a></li>
-                </ul>
-            </div>
         </div>
     </nav>
     <div class="container">
@@ -49,84 +42,15 @@
                 <div class="col-md-3 text-center">
                     <h5 style="font-weight: bold">&copy; Stratus Network</h5>
                 </div>
-                <div class="col-md-9">
-                    <div class="col-md-3">
-                        <ul class="nav nav-pills nav-stacked text-center">
-                            <li><b>Information</b></li>
-                            <br>
-                            <li><a class="nav-link text-muted" href="/announcements"><i class="fa fa-bullhorn"></i> Announcements</a></li>
-                            <li><a class="nav-link text-muted" href="/revisions"><i class="fa fa-code-fork"></i> Revisions</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="nav nav-pills nav-stacked text-center">
-                            <li><b>Organization</b></li>
-                            <br>
-                            <li><a class="nav-link text-muted" target="_blank" href="https://github.com/StratusNetwork/Map-Rotations/issues"><i class="fa fa-cube"></i> Map Submissions</a></li>
-                            <li><a class="nav-link text-muted" href="/rules"><i class="fa fa-balance-scale"></i> Network Rules</a></li>
-                            <li><a class="nav-link text-muted" href="/staff"><i class="fa fa-id-badge"></i> Staff Listing</a></li>
-                            <li><a class="nav-link text-muted" href="/conduct"><i class="fa fa-book"></i> Staff Code of Conduct</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="nav nav-pills nav-stacked text-center">
-                            <li><b>Moderation</b></li>
-                            <br>
-                            <li><a class="nav-link text-muted cursor-pointer" data-toggle="modal" data-target="#modal-report"><i class="fa fa-legal"></i> Player Reports</a></li>
-                            <li><a class="nav-link text-muted cursor-pointer" data-toggle="modal" data-target="#modal-appeal"><i class="fa fa-comments-o"></i> Punishment Appeals</a></li>
-                            <li><a class="nav-link text-muted" href="/apply"><i class="fa fa-briefcase"></i> Role Applications</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="nav nav-pills nav-stacked text-center">
-                            <li><b>Get Involved</b></li>
-                            <br>
-                            <li><a class="nav-link text-muted" target="_blank" href="https://twitter.com/stratusmc"><i class="fa fa-twitter"></i> Twitter</a></li>
-                            <li><a class="nav-link text-muted" target="_blank" href="https://discord.me/stratus"><i class="fa fa-microphone"></i> Discord</a></li>
-                            <li><a class="nav-link text-muted" target="_blank" href="https://github.com/stratusnetwork"><i class="fa fa-github"></i> GitHub</a></li>
-                            <li><a class="nav-link text-muted" target="_blank" href="mailto:networkstratus@gmail.com"><i class="fa fa-envelope-o"></i> Email</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade" id="modal-report" tabindex="-1" role="dialog" aria-labelledby="modal-report-label">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="modal-report-label">Report a Player</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>If you would like to report a player for breaking a rule, please send an email to the address below, including your Minecraft in-game name, the Minecraft in-game name of the player you are reporting, the rule the player broke and evidence of the player breaking said rule. We will deal with your report as quickly as possible. Thank you for your patience.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <div class="stratus-input-group" style="float:left">
-                                <span class="stratus-input-group-addon">Reports</span>
-                                <input id="reports_email" readonly type="text" class="stratus-form-control" value="networkstratus@gmail.com" style="width:232px">
-                                <button class="stratus-input-group-btn" data-toggle="popover" data-placement="top" data-content="Copied!" data-clipboard-target="#reports_email" id="btn"><i class="fa fa-clipboard"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade" id="modal-appeal" tabindex="-1" role="dialog" aria-labelledby="modal-appeal-label">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="modal-report-appeal">Appeal a Punishment</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>If you would like to appeal a punishment please send an email to the address below, including your Minecraft in-game name, the reason for which you were punished, why you believe the punishment is incorrect or too severe and any counter-evidence you have.  We will deal with your appeal as quickly as possible. Thank you for your patience.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <div class="stratus-input-group" style="float:left">
-                                <span class="stratus-input-group-addon">Appeals</span>
-                                <input id="appeals_email" readonly type="text" class="stratus-form-control" value="stratusappeals@gmail.com" style="width:232px">
-                                <button class="stratus-input-group-btn" data-toggle="popover" data-placement="top" data-content="Copied!" data-clipboard-target="#appeals_email" id="btn"><i class="fa fa-clipboard"></i></button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked text-center">
+                        <li><b>Get Involved</b></li>
+                        <br>
+                        <li><a class="nav-link text-muted" target="_blank" href="https://twitter.com/stratusmc"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li><a class="nav-link text-muted" target="_blank" href="https://discordapp.com/invite/Vxmq7Xp"><i class="fa fa-microphone"></i> Discord</a></li>
+                        <li><a class="nav-link text-muted" target="_blank" href="https://github.com/stratusnetwork"><i class="fa fa-github"></i> GitHub</a></li>
+                        <li><a class="nav-link text-muted" target="_blank" href="mailto:networkstratus@gmail.com"><i class="fa fa-envelope-o"></i> Email</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
